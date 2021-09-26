@@ -1,0 +1,2381 @@
+pid: 00004524
+basic block ends with ret
+0x4869bb: push 0x9486cfea
+0x4869c0: call 0x481348
+0x481348: push ecx
+0x436418: push ebp
+0x436419: push eax
+0x41f637: push edi
+0x41f63b: pushfd
+0x41f640: push ebx
+0x41f644: push edx
+0x41f64d: push esi
+0x41f661: push 0
+0x41f68a: mov esi, 0x47fa5f
+0x41f68f: mov ebp, esp
+0x41f69a: sub esp, 0xc0
+0x4620dd: mov ebx, 0x47fa5f
+0x4620e6: lea edi, [0x4620e6]
+0x4620ec: mov eax, dword ptr [esi]
+0x4620f2: lea esi, [esi + 4]
+0x4620ff: xor eax, ebx
+0x462101: ror eax, 1
+0x462104: xor eax, 0x4acb3db9
+0x462109: sub eax, 0x458c0140
+0x46210e: rol eax, 1
+0x462110: xor ebx, eax
+0x462117: add edi, eax
+0x4323ff: push edi
+0x432400: ret
+scratch_size: 0xc0, scratch_length: 48
+start analyzing 4892af
+basic block ends with indirect unconditional branch
+        0x4892af: movzx eax, byte ptr [esi]
+        0x4892b8: lea esi, [esi + 1]
+        0x4892be: xor al, bl
+        0x4892c3: sub al, 0x3a
+        0x4892ce: ror al, 1
+        0x4892d1: neg al
+        0x4892df: not al
+        0x4892ea: xor bl, al
+Load [vmp_sp+0x0]
+        0x4892ef: mov ecx, dword ptr [ebp]
+        0x41a261: lea ebp, [ebp + 4]
+modifies [x86_sp + 0x2c]
+        0x41a267: mov dword ptr [esp + eax], ecx
+        0x41a26a: mov eax, dword ptr [esi]
+        0x41a26c: add esi, 4
+        0x41a273: xor eax, ebx
+        0x41a275: ror eax, 1
+        0x41a27e: xor eax, 0x4acb3db9
+        0x45f79c: sub eax, 0x458c0140
+        0x496b0f: rol eax, 1
+        0x496b13: xor ebx, eax
+        0x474c45: add edi, eax
+        0x437e65: jmp edi
+handlers outputs:
+        bytecode: 0x47fa63 -> 0x47fa68
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1004
+done.
+
+
+
+start analyzing 493fb7
+basic block ends with ret
+        0x493fb7: movzx eax, byte ptr [esi]
+        0x493fba: add esi, 1
+        0x493fc8: xor al, bl
+        0x493fd1: sub al, 0x3a
+        0x493fd7: ror al, 1
+        0x493fdf: neg al
+        0x493fea: not al
+        0x493ff2: xor bl, al
+Load [vmp_sp+0x0]
+        0x493ff9: mov ecx, dword ptr [ebp]
+        0x494004: lea ebp, [ebp + 4]
+modifies [x86_sp + 0x28]
+        0x494011: mov dword ptr [esp + eax], ecx
+        0x494014: mov eax, dword ptr [esi]
+        0x494018: lea esi, [esi + 4]
+        0x494022: xor eax, ebx
+        0x494024: ror eax, 1
+        0x494026: xor eax, 0x4acb3db9
+        0x43cb8a: sub eax, 0x458c0140
+        0x43cb90: rol eax, 1
+        0x43cb93: xor ebx, eax
+        0x46688c: add edi, eax
+        0x45b9ad: push edi
+        0x45b9ae: ret
+handlers outputs:
+        bytecode: 0x47fa68 -> 0x47fa6d
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1004
+done.
+
+
+
+start analyzing 43cebf
+basic block ends with indirect unconditional branch
+        0x43cebf: movzx eax, byte ptr [esi]
+        0x43cec8: lea esi, [esi + 1]
+        0x43ced5: xor al, bl
+        0x43ced7: sub al, 0x3a
+        0x43cede: ror al, 1
+        0x43cee0: neg al
+        0x43cee6: not al
+        0x43ceed: xor bl, al
+Load [vmp_sp+0x0]
+        0x43cef1: mov ecx, dword ptr [ebp]
+        0x43cef6: lea ebp, [ebp + 4]
+modifies [x86_sp + 0x20]
+        0x43cf03: mov dword ptr [esp + eax], ecx
+        0x43cf0b: mov eax, dword ptr [esi]
+        0x43cf0f: add esi, 4
+        0x43cf15: xor eax, ebx
+        0x499ae5: ror eax, 1
+        0x499ae8: xor eax, 0x4acb3db9
+        0x499af4: sub eax, 0x458c0140
+        0x499afa: rol eax, 1
+        0x499b04: xor ebx, eax
+        0x499b07: add edi, eax
+        0x499b09: jmp edi
+handlers outputs:
+        bytecode: 0x47fa6d -> 0x47fa72
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1004
+done.
+
+
+
+start analyzing 42eda2
+basic block ends with indirect unconditional branch
+        0x42eda2: movzx eax, byte ptr [esi]
+        0x42edaf: add esi, 1
+        0x42edb9: xor al, bl
+        0x42edc0: sub al, 0x3a
+        0x42edc9: ror al, 1
+        0x42edcd: neg al
+        0x42edd6: not al
+        0x42ede2: xor bl, al
+Load [vmp_sp+0x0]
+        0x42eded: mov ecx, dword ptr [ebp]
+        0x42edf1: lea ebp, [ebp + 4]
+modifies [x86_sp + 0x30]
+        0x42edfe: mov dword ptr [esp + eax], ecx
+        0x42ee01: mov eax, dword ptr [esi]
+        0x42ee03: lea esi, [esi + 4]
+        0x42ee09: xor eax, ebx
+        0x42ee0b: ror eax, 1
+        0x42ee0e: xor eax, 0x4acb3db9
+        0x42ee16: sub eax, 0x458c0140
+        0x42ee1b: rol eax, 1
+        0x45fda1: xor ebx, eax
+        0x45fdab: add edi, eax
+        0x449229: jmp edi
+handlers outputs:
+        bytecode: 0x47fa72 -> 0x47fa77
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1004
+done.
+
+
+
+start analyzing 43cc41
+basic block ends with ret
+        0x43cc41: movzx eax, byte ptr [esi]
+        0x43cc4c: add esi, 1
+        0x43cc56: xor al, bl
+        0x43cc58: sub al, 0x3a
+        0x43cc5a: ror al, 1
+        0x43cc60: neg al
+        0x43cc65: not al
+        0x43cc71: xor bl, al
+Load [vmp_sp+0x0]
+        0x43cc7b: mov ecx, dword ptr [ebp]
+        0x43cc83: add ebp, 4
+modifies [x86_sp + 0x14]
+        0x43cc89: mov dword ptr [esp + eax], ecx
+        0x43cc8c: mov eax, dword ptr [esi]
+        0x44efcd: add esi, 4
+        0x41840f: xor eax, ebx
+        0x418412: ror eax, 1
+        0x41841c: xor eax, 0x4acb3db9
+        0x418423: sub eax, 0x458c0140
+        0x442e3b: rol eax, 1
+        0x442e3d: xor ebx, eax
+        0x468e6a: add edi, eax
+        0x479987: push edi
+        0x479988: ret
+handlers outputs:
+        bytecode: 0x47fa77 -> 0x47fa7c
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1004
+done.
+
+
+
+start analyzing 432085
+basic block ends with ret
+        0x432085: movzx eax, byte ptr [esi]
+        0x43208c: add esi, 1
+        0x432096: xor al, bl
+        0x43209e: sub al, 0x3a
+        0x4320a0: ror al, 1
+        0x4320a2: neg al
+        0x4320aa: not al
+        0x4320b4: xor bl, al
+Load [vmp_sp+0x0]
+        0x4320b6: mov ecx, dword ptr [ebp]
+        0x4320bf: add ebp, 4
+modifies [x86_sp + 0xc]
+        0x4320c5: mov dword ptr [esp + eax], ecx
+        0x4320cb: mov eax, dword ptr [esi]
+        0x4320cd: add esi, 4
+        0x4320de: xor eax, ebx
+        0x4320e1: ror eax, 1
+        0x4320e3: xor eax, 0x4acb3db9
+        0x4320ee: sub eax, 0x458c0140
+        0x4320f3: rol eax, 1
+        0x4320f5: xor ebx, eax
+        0x4320fd: add edi, eax
+        0x484226: push edi
+        0x484227: ret
+handlers outputs:
+        bytecode: 0x47fa7c -> 0x47fa81
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1004
+done.
+
+
+
+start analyzing 43285a
+basic block ends with indirect unconditional branch
+        0x43285a: movzx eax, byte ptr [esi]
+        0x432866: lea esi, [esi + 1]
+        0x432875: xor al, bl
+        0x485ae4: sub al, 0x3a
+        0x485aed: ror al, 1
+        0x485af3: neg al
+        0x485af5: not al
+        0x485af8: xor bl, al
+Load [vmp_sp+0x0]
+        0x485afa: mov ecx, dword ptr [ebp]
+        0x485b01: add ebp, 4
+modifies [x86_sp + 0x10]
+        0x485b07: mov dword ptr [esp + eax], ecx
+        0x485b11: mov eax, dword ptr [esi]
+        0x485b16: add esi, 4
+        0x485b21: xor eax, ebx
+        0x463336: ror eax, 1
+        0x463338: xor eax, 0x4acb3db9
+        0x46333e: sub eax, 0x458c0140
+        0x463344: rol eax, 1
+        0x463346: xor ebx, eax
+        0x463349: add edi, eax
+        0x46334b: jmp edi
+handlers outputs:
+        bytecode: 0x47fa81 -> 0x47fa86
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1004
+done.
+
+
+
+start analyzing 472114
+basic block ends with ret
+        0x472114: movzx eax, byte ptr [esi]
+        0x472118: lea esi, [esi + 1]
+        0x472123: xor al, bl
+        0x47212d: sub al, 0x3a
+        0x472132: ror al, 1
+        0x47213a: neg al
+        0x47213e: not al
+        0x47214c: xor bl, al
+Load [vmp_sp+0x0]
+        0x472151: mov ecx, dword ptr [ebp]
+        0x480797: add ebp, 4
+modifies [x86_sp + 0x0]
+        0x4807a2: mov dword ptr [esp + eax], ecx
+        0x4807ac: mov eax, dword ptr [esi]
+        0x4807ae: add esi, 4
+        0x4807b8: xor eax, ebx
+        0x4807bb: ror eax, 1
+        0x4807bd: xor eax, 0x4acb3db9
+        0x424132: sub eax, 0x458c0140
+        0x49accf: rol eax, 1
+        0x49acd2: xor ebx, eax
+        0x49acd4: add edi, eax
+        0x42d599: push edi
+        0x42d59a: ret
+handlers outputs:
+        bytecode: 0x47fa86 -> 0x47fa8b
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1004
+done.
+
+
+
+start analyzing 44efa7
+basic block ends with indirect unconditional branch
+        0x44efa7: movzx eax, byte ptr [esi]
+        0x44efae: add esi, 1
+        0x430dfd: xor al, bl
+        0x430e06: sub al, 0x3a
+        0x430e11: ror al, 1
+        0x430e13: neg al
+        0x430e1a: not al
+        0x430e21: xor bl, al
+Load [vmp_sp+0x0]
+        0x430e29: mov ecx, dword ptr [ebp]
+        0x430e2d: lea ebp, [ebp + 4]
+modifies [x86_sp + 0x4]
+        0x430e33: mov dword ptr [esp + eax], ecx
+        0x430e3d: mov eax, dword ptr [esi]
+        0x430e45: add esi, 4
+        0x430e4e: xor eax, ebx
+        0x48dca9: ror eax, 1
+        0x48dcac: xor eax, 0x4acb3db9
+        0x48dcb1: sub eax, 0x458c0140
+        0x48dcb8: rol eax, 1
+        0x48dcba: xor ebx, eax
+        0x48dcc2: add edi, eax
+        0x451ade: jmp edi
+handlers outputs:
+        bytecode: 0x47fa8b -> 0x47fa90
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1004
+done.
+
+
+
+start analyzing 47b865
+basic block ends with ret
+        0x47b865: movzx eax, byte ptr [esi]
+        0x47b868: lea esi, [esi + 1]
+        0x47b87a: xor al, bl
+        0x47b885: sub al, 0x3a
+        0x47b889: ror al, 1
+        0x47b891: neg al
+        0x47b89a: not al
+        0x47b8a3: xor bl, al
+Load [vmp_sp+0x0]
+        0x47b8a9: mov ecx, dword ptr [ebp]
+        0x47b8ad: lea ebp, [ebp + 4]
+modifies [x86_sp + 0x34]
+        0x47b8b3: mov dword ptr [esp + eax], ecx
+        0x47b8c1: mov eax, dword ptr [esi]
+        0x47b8c6: lea esi, [esi + 4]
+        0x470fe8: xor eax, ebx
+        0x470feb: ror eax, 1
+        0x470fed: xor eax, 0x4acb3db9
+        0x470ff9: sub eax, 0x458c0140
+        0x4348d9: rol eax, 1
+        0x4348e2: xor ebx, eax
+        0x4348e5: add edi, eax
+        0x4348e7: push edi
+        0x4348e8: ret
+handlers outputs:
+        bytecode: 0x47fa90 -> 0x47fa95
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1004
+done.
+
+
+
+start analyzing 44489f
+basic block ends with ret
+        0x44489f: movzx eax, byte ptr [esi]
+        0x4448a2: add esi, 1
+        0x4448a8: xor al, bl
+        0x4448ad: sub al, 0x3a
+        0x44c94a: ror al, 1
+        0x44c956: neg al
+        0x44c95d: not al
+        0x44c963: xor bl, al
+Load [vmp_sp+0x0]
+        0x44c96d: mov ecx, dword ptr [ebp]
+        0x459689: lea ebp, [ebp + 4]
+modifies [x86_sp + 0x34]
+        0x459692: mov dword ptr [esp + eax], ecx
+        0x45969b: mov eax, dword ptr [esi]
+        0x4596a1: lea esi, [esi + 4]
+        0x4596a7: xor eax, ebx
+        0x4596a9: ror eax, 1
+        0x493182: xor eax, 0x4acb3db9
+        0x493190: sub eax, 0x458c0140
+        0x493197: rol eax, 1
+        0x4931a0: xor ebx, eax
+        0x435f4f: add edi, eax
+        0x469396: push edi
+        0x469397: ret
+handlers outputs:
+        bytecode: 0x47fa95 -> 0x47fa9a
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1004
+done.
+
+
+
+start analyzing 441cf6
+basic block ends with indirect unconditional branch
+basic block ends with indirect unconditional branch
+        0x441cf6: movzx eax, byte ptr [esi]
+        0x441d02: lea esi, [esi + 1]
+        0x441d0f: xor al, bl
+        0x441d13: sub al, 0x3a
+        0x441d15: ror al, 1
+        0x4596b9: neg al
+        0x4596c0: not al
+        0x4596c2: xor bl, al
+Load Scratch:[0x0]
+        0x4596cb: mov eax, dword ptr [esp + eax]
+        0x4596d2: sub ebp, 4
+        0x4596e2: mov dword ptr [ebp], eax
+        0x4596ec: mov eax, dword ptr [esi]
+        0x4596ee: add esi, 4
+        0x4466ea: xor eax, ebx
+        0x4466ec: ror eax, 1
+        0x4466f3: xor eax, 0x4acb3db9
+        0x4466f8: sub eax, 0x458c0140
+        0x4466fe: rol eax, 1
+        0x446700: xor ebx, eax
+        0x446707: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47fa9a -> 0x47fa9f
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0xffc
+done.
+
+
+
+start analyzing 468429
+basic block ends with indirect unconditional branch
+basic block ends with indirect unconditional branch
+        0x468429: mov eax, ebp
+        0x46842e: sub ebp, 4
+        0x468437: mov dword ptr [ebp], eax
+        0x457104: mov eax, dword ptr [esi]
+        0x457108: add esi, 4
+        0x45710e: xor eax, ebx
+        0x43eed0: ror eax, 1
+        0x43eed2: xor eax, 0x4acb3db9
+        0x43eedc: sub eax, 0x458c0140
+        0x4312e2: rol eax, 1
+        0x4312e4: xor ebx, eax
+        0x4312e6: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47fa9f -> 0x47faa3
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0xffc
+done.
+
+
+
+start analyzing 4892af
+        0x4892af: movzx eax, byte ptr [esi]
+        0x4892b8: lea esi, [esi + 1]
+        0x4892be: xor al, bl
+        0x4892c3: sub al, 0x3a
+        0x4892ce: ror al, 1
+        0x4892d1: neg al
+        0x4892df: not al
+        0x4892ea: xor bl, al
+Load [vmp_sp+0x0]
+        0x4892ef: mov ecx, dword ptr [ebp]
+        0x41a261: lea ebp, [ebp + 4]
+modifies [x86_sp + 0x18]
+        0x41a267: mov dword ptr [esp + eax], ecx
+        0x41a26a: mov eax, dword ptr [esi]
+        0x41a26c: add esi, 4
+        0x41a273: xor eax, ebx
+        0x41a275: ror eax, 1
+        0x41a27e: xor eax, 0x4acb3db9
+        0x45f79c: sub eax, 0x458c0140
+        0x496b0f: rol eax, 1
+        0x496b13: xor ebx, eax
+        0x474c45: add edi, eax
+        0x437e65: jmp edi
+handlers outputs:
+        bytecode: 0x47faa3 -> 0x47faa8
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1004
+done.
+
+
+
+start analyzing 49b6fa
+basic block ends with indirect unconditional branch
+basic block ends with indirect unconditional branch
+        0x49b6fa: mov eax, dword ptr [esi]
+        0x49b6fe: lea esi, [esi + 4]
+        0x48c6be: xor eax, ebx
+        0x48c6c0: lea eax, [eax - 0xc5a392e]
+        0x46a251: bswap eax
+        0x46a255: neg eax
+        0x435c54: not eax
+        0x435c56: lea eax, [eax - 0x56865200]
+        0x435c60: xor ebx, eax
+        0x435c62: lea ebp, [ebp - 4]
+        0x435c68: mov dword ptr [ebp], eax
+        0x435c71: mov eax, dword ptr [esi]
+        0x435c73: lea esi, [esi + 4]
+        0x4282ea: xor eax, ebx
+        0x464ff9: ror eax, 1
+        0x432cb9: xor eax, 0x4acb3db9
+        0x432cc1: sub eax, 0x458c0140
+        0x432cc6: rol eax, 1
+        0x432cc8: xor ebx, eax
+        0x432cd5: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47faa8 -> 0x47fab0
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0xffc
+done.
+
+
+
+start analyzing 430855
+basic block ends with indirect unconditional branch
+basic block ends with indirect unconditional branch
+        0x430855: mov eax, ebp
+        0x430857: lea ebp, [ebp - 4]
+        0x430863: mov dword ptr [ebp], eax
+        0x430869: mov eax, dword ptr [esi]
+        0x43086b: lea esi, [esi + 4]
+        0x430877: xor eax, ebx
+        0x43087b: ror eax, 1
+        0x43087f: xor eax, 0x4acb3db9
+        0x48636e: sub eax, 0x458c0140
+        0x478c3b: rol eax, 1
+        0x45ecc2: xor ebx, eax
+        0x45ecc4: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47fab0 -> 0x47fab4
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0xffc
+done.
+
+
+
+start analyzing 42ae29
+basic block ends with indirect unconditional branch
+basic block ends with indirect unconditional branch
+        0x42ae29: mov eax, dword ptr [esi]
+        0x42ae2f: lea esi, [esi + 4]
+        0x42ae35: xor eax, ebx
+        0x42ae37: sub eax, 0xc5a392e
+        0x42ae3f: bswap eax
+        0x45a692: neg eax
+        0x45a698: not eax
+        0x45a69a: lea eax, [eax - 0x56865200]
+        0x45a6a0: xor ebx, eax
+        0x45a6a4: sub ebp, 4
+        0x45a6ac: mov dword ptr [ebp], eax
+        0x45a6b5: mov eax, dword ptr [esi]
+        0x45a6b9: add esi, 4
+        0x45a6bf: xor eax, ebx
+        0x45a6c2: ror eax, 1
+        0x45a6c7: xor eax, 0x4acb3db9
+        0x45a6cd: sub eax, 0x458c0140
+        0x4559e7: rol eax, 1
+        0x4559ea: xor ebx, eax
+        0x4559ec: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47fab4 -> 0x47fabc
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0xffc
+done.
+
+
+
+start analyzing 4365af
+basic block ends with ret
+Load [vmp_sp+0x0]
+        0x4365af: mov eax, dword ptr [ebp]
+Load [vmp_sp+0x4]
+        0x4365c0: mov ecx, dword ptr [ebp + 4]
+        0x4365ca: add eax, ecx
+        0x4365cc: mov dword ptr [ebp + 4], eax
+        0x4365d0: pushfd
+        0x4365d2: pop dword ptr [ebp]
+        0x4365dc: mov eax, dword ptr [esi]
+        0x4365de: add esi, 4
+        0x425df6: xor eax, ebx
+        0x432133: ror eax, 1
+        0x432135: xor eax, 0x4acb3db9
+        0x4816d2: sub eax, 0x458c0140
+        0x4816d8: rol eax, 1
+        0x4816e1: xor ebx, eax
+        0x4816e4: add edi, eax
+        0x4816e6: push edi
+        0x4816e7: ret
+handlers outputs:
+        bytecode: 0x47fabc -> 0x47fac0
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1000
+done.
+
+
+
+start analyzing 493fb7
+        0x493fb7: movzx eax, byte ptr [esi]
+        0x493fba: add esi, 1
+        0x493fc8: xor al, bl
+        0x493fd1: sub al, 0x3a
+        0x493fd7: ror al, 1
+        0x493fdf: neg al
+        0x493fea: not al
+        0x493ff2: xor bl, al
+Load [vmp_sp+0x0]
+        0x493ff9: mov ecx, dword ptr [ebp]
+        0x494004: lea ebp, [ebp + 4]
+modifies [x86_sp + 0x38]
+        0x494011: mov dword ptr [esp + eax], ecx
+        0x494014: mov eax, dword ptr [esi]
+        0x494018: lea esi, [esi + 4]
+        0x494022: xor eax, ebx
+        0x494024: ror eax, 1
+        0x494026: xor eax, 0x4acb3db9
+        0x43cb8a: sub eax, 0x458c0140
+        0x43cb90: rol eax, 1
+        0x43cb93: xor ebx, eax
+        0x46688c: add edi, eax
+        0x45b9ad: push edi
+        0x45b9ae: ret
+handlers outputs:
+        bytecode: 0x47fac0 -> 0x47fac5
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1004
+done.
+
+
+
+start analyzing 46e225
+basic block ends with indirect unconditional branch
+basic block ends with indirect unconditional branch
+        0x46e225: mov eax, ebp
+        0x4376a2: lea ebp, [ebp - 4]
+        0x4376a8: mov dword ptr [ebp], eax
+        0x4376b3: mov eax, dword ptr [esi]
+        0x4376b5: add esi, 4
+        0x417f2d: xor eax, ebx
+        0x417f2f: ror eax, 1
+        0x417f35: xor eax, 0x4acb3db9
+        0x491b9d: sub eax, 0x458c0140
+        0x4921f9: rol eax, 1
+        0x4921fe: xor ebx, eax
+        0x492201: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47fac5 -> 0x47fac9
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0xffc
+done.
+
+
+
+start analyzing 4762b1
+basic block ends with indirect unconditional branch
+basic block ends with indirect unconditional branch
+        0x4762b1: mov eax, dword ptr [esi]
+        0x4762bb: lea esi, [esi + 4]
+        0x4762c2: xor eax, ebx
+        0x4762c5: lea eax, [eax - 0xc5a392e]
+        0x4762d0: bswap eax
+        0x4762d9: neg eax
+        0x4762db: not eax
+        0x4762de: lea eax, [eax - 0x56865200]
+        0x4762e6: xor ebx, eax
+        0x4762ee: sub ebp, 4
+        0x4762f5: mov dword ptr [ebp], eax
+        0x476303: mov eax, dword ptr [esi]
+        0x476305: lea esi, [esi + 4]
+        0x476312: xor eax, ebx
+        0x476316: ror eax, 1
+        0x476318: xor eax, 0x4acb3db9
+        0x476320: sub eax, 0x458c0140
+        0x476325: rol eax, 1
+        0x42287e: xor ebx, eax
+        0x422886: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47fac9 -> 0x47fad1
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0xffc
+done.
+
+
+
+start analyzing 423f22
+basic block ends with indirect unconditional branch
+Load [vmp_sp+0x0]
+        0x423f22: mov eax, dword ptr [ebp]
+Load [vmp_sp+0x4]
+        0x423f26: mov ecx, dword ptr [ebp + 4]
+        0x423f30: add eax, ecx
+        0x45fb92: mov dword ptr [ebp + 4], eax
+        0x45fb99: pushfd
+        0x45fb9f: pop dword ptr [ebp]
+        0x45fba8: mov eax, dword ptr [esi]
+        0x46bef8: add esi, 4
+        0x46bf0a: xor eax, ebx
+        0x417c99: ror eax, 1
+        0x417c9c: xor eax, 0x4acb3db9
+        0x417ca9: sub eax, 0x458c0140
+        0x417cae: rol eax, 1
+        0x417cb3: xor ebx, eax
+        0x417cb6: add edi, eax
+        0x48e13d: jmp edi
+handlers outputs:
+        bytecode: 0x47fad1 -> 0x47fad5
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1000
+done.
+
+
+
+start analyzing 43cebf
+        0x43cebf: movzx eax, byte ptr [esi]
+        0x43cec8: lea esi, [esi + 1]
+        0x43ced5: xor al, bl
+        0x43ced7: sub al, 0x3a
+        0x43cede: ror al, 1
+        0x43cee0: neg al
+        0x43cee6: not al
+        0x43ceed: xor bl, al
+Load [vmp_sp+0x0]
+        0x43cef1: mov ecx, dword ptr [ebp]
+        0x43cef6: lea ebp, [ebp + 4]
+modifies [x86_sp + 0x38]
+        0x43cf03: mov dword ptr [esp + eax], ecx
+        0x43cf0b: mov eax, dword ptr [esi]
+        0x43cf0f: add esi, 4
+        0x43cf15: xor eax, ebx
+        0x499ae5: ror eax, 1
+        0x499ae8: xor eax, 0x4acb3db9
+        0x499af4: sub eax, 0x458c0140
+        0x499afa: rol eax, 1
+        0x499b04: xor ebx, eax
+        0x499b07: add edi, eax
+        0x499b09: jmp edi
+handlers outputs:
+        bytecode: 0x47fad5 -> 0x47fada
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1004
+done.
+
+
+
+start analyzing 463fb4
+basic block ends with indirect unconditional branch
+Load [vmp_sp+0x0]
+        0x463fb4: mov eax, dword ptr [ebp]
+Load [vmp_sp+0x4]
+        0x463fbf: mov ecx, dword ptr [ebp + 4]
+        0x463fc8: not eax
+        0x463fca: not ecx
+        0x463fcc: and eax, ecx
+        0x425d17: mov dword ptr [ebp + 4], eax
+        0x425d1d: pushfd
+        0x425d29: pop dword ptr [ebp]
+        0x425d2d: mov eax, dword ptr [esi]
+        0x425d32: lea esi, [esi + 4]
+        0x425d38: xor eax, ebx
+        0x425d3b: ror eax, 1
+        0x425d3d: xor eax, 0x4acb3db9
+        0x425d45: sub eax, 0x458c0140
+        0x425d4b: rol eax, 1
+        0x425d4d: xor ebx, eax
+        0x425d4f: add edi, eax
+        0x47a346: jmp edi
+handlers outputs:
+        bytecode: 0x47fada -> 0x47fade
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1000
+done.
+
+
+
+start analyzing 42eda2
+        0x42eda2: movzx eax, byte ptr [esi]
+        0x42edaf: add esi, 1
+        0x42edb9: xor al, bl
+        0x42edc0: sub al, 0x3a
+        0x42edc9: ror al, 1
+        0x42edcd: neg al
+        0x42edd6: not al
+        0x42ede2: xor bl, al
+Load [vmp_sp+0x0]
+        0x42eded: mov ecx, dword ptr [ebp]
+        0x42edf1: lea ebp, [ebp + 4]
+modifies [x86_sp + 0x24]
+        0x42edfe: mov dword ptr [esp + eax], ecx
+        0x42ee01: mov eax, dword ptr [esi]
+        0x42ee03: lea esi, [esi + 4]
+        0x42ee09: xor eax, ebx
+        0x42ee0b: ror eax, 1
+        0x42ee0e: xor eax, 0x4acb3db9
+        0x42ee16: sub eax, 0x458c0140
+        0x42ee1b: rol eax, 1
+        0x45fda1: xor ebx, eax
+        0x45fdab: add edi, eax
+        0x449229: jmp edi
+handlers outputs:
+        bytecode: 0x47fade -> 0x47fae3
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1004
+done.
+
+
+
+start analyzing 496c89
+basic block ends with indirect unconditional branch
+Load [vmp_sp+0x0]
+        0x496c89: mov eax, dword ptr [ebp]
+Load [vmp_sp+0x4]
+        0x496c8d: mov ecx, dword ptr [ebp + 4]
+        0x496c9a: add eax, ecx
+        0x46be0f: mov dword ptr [ebp + 4], eax
+        0x46be17: pushfd
+        0x46be1b: pop dword ptr [ebp]
+        0x46be21: mov eax, dword ptr [esi]
+        0x46be24: add esi, 4
+        0x46be2f: xor eax, ebx
+        0x4539dc: ror eax, 1
+        0x4539e1: xor eax, 0x4acb3db9
+        0x4539e6: sub eax, 0x458c0140
+        0x439d01: rol eax, 1
+        0x439d04: xor ebx, eax
+        0x439d0b: add edi, eax
+        0x492ae3: jmp edi
+handlers outputs:
+        bytecode: 0x47fae3 -> 0x47fae7
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1000
+done.
+
+
+
+start analyzing 43cc41
+        0x43cc41: movzx eax, byte ptr [esi]
+        0x43cc4c: add esi, 1
+        0x43cc56: xor al, bl
+        0x43cc58: sub al, 0x3a
+        0x43cc5a: ror al, 1
+        0x43cc60: neg al
+        0x43cc65: not al
+        0x43cc71: xor bl, al
+Load [vmp_sp+0x0]
+        0x43cc7b: mov ecx, dword ptr [ebp]
+        0x43cc83: add ebp, 4
+modifies [x86_sp + 0x24]
+        0x43cc89: mov dword ptr [esp + eax], ecx
+        0x43cc8c: mov eax, dword ptr [esi]
+        0x44efcd: add esi, 4
+        0x41840f: xor eax, ebx
+        0x418412: ror eax, 1
+        0x41841c: xor eax, 0x4acb3db9
+        0x418423: sub eax, 0x458c0140
+        0x442e3b: rol eax, 1
+        0x442e3d: xor ebx, eax
+        0x468e6a: add edi, eax
+        0x479987: push edi
+        0x479988: ret
+handlers outputs:
+        bytecode: 0x47fae7 -> 0x47faec
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1004
+done.
+
+
+
+start analyzing 45b420
+basic block ends with indirect unconditional branch
+basic block ends with indirect unconditional branch
+        0x45b420: mov eax, ebp
+        0x45b426: lea ebp, [ebp - 4]
+        0x427245: mov dword ptr [ebp], eax
+        0x427251: mov eax, dword ptr [esi]
+        0x42725b: add esi, 4
+        0x427269: xor eax, ebx
+        0x42726b: ror eax, 1
+        0x427271: xor eax, 0x4acb3db9
+        0x427276: sub eax, 0x458c0140
+        0x42727b: rol eax, 1
+        0x42727d: xor ebx, eax
+        0x42727f: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47faec -> 0x47faf0
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0xffc
+done.
+
+
+
+start analyzing 4451ce
+basic block ends with ret
+Load [vmp_sp+0x0]
+        0x4451ce: mov ecx, dword ptr [ebp]
+Deref(t36,ss)
+        0x4451d9: mov eax, dword ptr ss:[ecx]
+        0x4451e2: mov dword ptr [ebp], eax
+        0x4451eb: mov eax, dword ptr [esi]
+        0x4451ed: add esi, 4
+        0x4451f9: xor eax, ebx
+        0x4451fb: ror eax, 1
+        0x445203: xor eax, 0x4acb3db9
+        0x445208: sub eax, 0x458c0140
+        0x455fdb: rol eax, 1
+        0x455fdd: xor ebx, eax
+        0x455fdf: add edi, eax
+        0x423edf: push edi
+        0x423ee0: ret
+handlers outputs:
+        bytecode: 0x47faf0 -> 0x47faf4
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1000
+done.
+
+
+
+start analyzing 47e3ff
+basic block ends with ret
+Load [vmp_sp+0x0]
+        0x47e3ff: mov eax, dword ptr [ebp]
+Load [vmp_sp+0x4]
+        0x47e403: mov ecx, dword ptr [ebp + 4]
+        0x47e40b: not eax
+        0x45700b: not ecx
+        0x457011: and eax, ecx
+        0x457013: mov dword ptr [ebp + 4], eax
+        0x45701a: pushfd
+        0x45701b: pop dword ptr [ebp]
+        0x457026: mov eax, dword ptr [esi]
+        0x45702a: add esi, 4
+        0x425c9d: xor eax, ebx
+        0x425c9f: ror eax, 1
+        0x425ca1: xor eax, 0x4acb3db9
+        0x425ca8: sub eax, 0x458c0140
+        0x425caf: rol eax, 1
+        0x425cb4: xor ebx, eax
+        0x425cbe: add edi, eax
+        0x4545f7: push edi
+        0x4545f8: ret
+handlers outputs:
+        bytecode: 0x47faf4 -> 0x47faf8
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1000
+done.
+
+
+
+start analyzing 432085
+        0x432085: movzx eax, byte ptr [esi]
+        0x43208c: add esi, 1
+        0x432096: xor al, bl
+        0x43209e: sub al, 0x3a
+        0x4320a0: ror al, 1
+        0x4320a2: neg al
+        0x4320aa: not al
+        0x4320b4: xor bl, al
+Load [vmp_sp+0x0]
+        0x4320b6: mov ecx, dword ptr [ebp]
+        0x4320bf: add ebp, 4
+modifies [x86_sp + 0x8]
+        0x4320c5: mov dword ptr [esp + eax], ecx
+        0x4320cb: mov eax, dword ptr [esi]
+        0x4320cd: add esi, 4
+        0x4320de: xor eax, ebx
+        0x4320e1: ror eax, 1
+        0x4320e3: xor eax, 0x4acb3db9
+        0x4320ee: sub eax, 0x458c0140
+        0x4320f3: rol eax, 1
+        0x4320f5: xor ebx, eax
+        0x4320fd: add edi, eax
+        0x484226: push edi
+        0x484227: ret
+handlers outputs:
+        bytecode: 0x47faf8 -> 0x47fafd
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1004
+done.
+
+
+
+start analyzing 49879b
+basic block ends with indirect unconditional branch
+basic block ends with indirect unconditional branch
+Load [vmp_sp+0x0]
+        0x49879b: mov ebp, dword ptr [ebp]
+        0x4987a9: mov eax, dword ptr [esi]
+        0x44e529: add esi, 4
+        0x44e530: xor eax, ebx
+        0x44e533: ror eax, 1
+        0x44e539: xor eax, 0x4acb3db9
+        0x44e53f: sub eax, 0x458c0140
+        0x44e545: rol eax, 1
+        0x44e548: xor ebx, eax
+        0x44e553: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47fafd -> 0x47fb01
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1000
+done.
+
+
+
+start analyzing 437794
+basic block ends with indirect unconditional branch
+basic block ends with indirect unconditional branch
+        0x437794: movzx eax, byte ptr [esi]
+        0x437799: lea esi, [esi + 1]
+        0x4377a7: xor al, bl
+        0x4377aa: sub al, 0x3a
+        0x4377ad: ror al, 1
+        0x4377b3: neg al
+        0x4377b5: not al
+        0x4377bd: xor bl, al
+Load Scratch:[0x24]
+        0x4377c1: mov eax, dword ptr [esp + eax]
+        0x4502ef: lea ebp, [ebp - 4]
+        0x4502f5: mov dword ptr [ebp], eax
+        0x4502f9: mov eax, dword ptr [esi]
+        0x4502fe: add esi, 4
+        0x450305: xor eax, ebx
+        0x450308: ror eax, 1
+        0x45030a: xor eax, 0x4acb3db9
+        0x450310: sub eax, 0x458c0140
+        0x449794: rol eax, 1
+        0x4497a0: xor ebx, eax
+        0x4497a2: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47fb01 -> 0x47fb06
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0xffc
+done.
+
+
+
+start analyzing 438038
+basic block ends with indirect unconditional branch
+basic block ends with indirect unconditional branch
+        0x438038: movzx eax, byte ptr [esi]
+        0x43803c: add esi, 1
+        0x438042: xor al, bl
+        0x438046: sub al, 0x3a
+        0x438049: ror al, 1
+        0x43804e: neg al
+        0x438056: not al
+        0x43805a: xor bl, al
+Load Scratch:[0x24]
+        0x43805f: mov eax, dword ptr [esp + eax]
+        0x438067: lea ebp, [ebp - 4]
+        0x43806f: mov dword ptr [ebp], eax
+        0x438073: mov eax, dword ptr [esi]
+        0x460d5b: add esi, 4
+        0x460d61: xor eax, ebx
+        0x460d65: ror eax, 1
+        0x460d6e: xor eax, 0x4acb3db9
+        0x481c3e: sub eax, 0x458c0140
+        0x481c43: rol eax, 1
+        0x481c46: xor ebx, eax
+        0x481c48: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47fb06 -> 0x47fb0b
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0xffc
+done.
+
+
+
+start analyzing 487b17
+basic block ends with ret
+Load [vmp_sp+0x0]
+        0x487b17: mov eax, dword ptr [ebp]
+Load [vmp_sp+0x4]
+        0x487b1b: mov ecx, dword ptr [ebp + 4]
+        0x487b21: not eax
+        0x460771: not ecx
+        0x460774: and eax, ecx
+        0x460485: mov dword ptr [ebp + 4], eax
+        0x46048a: pushfd
+        0x46048b: pop dword ptr [ebp]
+        0x460496: mov eax, dword ptr [esi]
+        0x46049e: add esi, 4
+        0x431c55: xor eax, ebx
+        0x431c57: ror eax, 1
+        0x431c5b: xor eax, 0x4acb3db9
+        0x431c65: sub eax, 0x458c0140
+        0x431c6b: rol eax, 1
+        0x4724f5: xor ebx, eax
+        0x4724f7: add edi, eax
+        0x4681f6: push edi
+        0x4681f7: ret
+handlers outputs:
+        bytecode: 0x47fb0b -> 0x47fb0f
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1000
+done.
+
+
+
+start analyzing 43285a
+        0x43285a: movzx eax, byte ptr [esi]
+        0x432866: lea esi, [esi + 1]
+        0x432875: xor al, bl
+        0x485ae4: sub al, 0x3a
+        0x485aed: ror al, 1
+        0x485af3: neg al
+        0x485af5: not al
+        0x485af8: xor bl, al
+Load [vmp_sp+0x0]
+        0x485afa: mov ecx, dword ptr [ebp]
+        0x485b01: add ebp, 4
+modifies [x86_sp + 0x38]
+        0x485b07: mov dword ptr [esp + eax], ecx
+        0x485b11: mov eax, dword ptr [esi]
+        0x485b16: add esi, 4
+        0x485b21: xor eax, ebx
+        0x463336: ror eax, 1
+        0x463338: xor eax, 0x4acb3db9
+        0x46333e: sub eax, 0x458c0140
+        0x463344: rol eax, 1
+        0x463346: xor ebx, eax
+        0x463349: add edi, eax
+        0x46334b: jmp edi
+handlers outputs:
+        bytecode: 0x47fb0f -> 0x47fb14
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1004
+done.
+
+
+
+start analyzing 49afdf
+basic block ends with indirect unconditional branch
+basic block ends with indirect unconditional branch
+        0x49afdf: mov eax, dword ptr [esi]
+        0x49afe2: add esi, 4
+        0x49afe9: xor eax, ebx
+        0x49afef: sub eax, 0xc5a392e
+        0x49aff4: bswap eax
+        0x49aff6: neg eax
+        0x49affb: not eax
+        0x49b002: lea eax, [eax - 0x56865200]
+        0x445128: xor ebx, eax
+        0x445130: sub ebp, 4
+        0x445142: mov dword ptr [ebp], eax
+        0x44514a: mov eax, dword ptr [esi]
+        0x44514c: lea esi, [esi + 4]
+        0x445152: xor eax, ebx
+        0x43aa78: ror eax, 1
+        0x43aa7a: xor eax, 0x4acb3db9
+        0x43aa80: sub eax, 0x458c0140
+        0x43aa85: rol eax, 1
+        0x43aa8e: xor ebx, eax
+        0x43771b: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47fb14 -> 0x47fb1c
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0xffc
+done.
+
+
+
+start analyzing 45c2f6
+basic block ends with ret
+Load [vmp_sp+0x0]
+        0x45c2f6: mov eax, dword ptr [ebp]
+Load [vmp_sp+0x4]
+        0x45c2fa: mov ecx, dword ptr [ebp + 4]
+        0x45c304: not eax
+        0x45c306: not ecx
+        0x45c308: and eax, ecx
+        0x466256: mov dword ptr [ebp + 4], eax
+        0x46625d: pushfd
+        0x466263: pop dword ptr [ebp]
+        0x46626f: mov eax, dword ptr [esi]
+        0x466271: add esi, 4
+        0x466279: xor eax, ebx
+        0x46627b: ror eax, 1
+        0x46627d: xor eax, 0x4acb3db9
+        0x466284: sub eax, 0x458c0140
+        0x466289: rol eax, 1
+        0x46628f: xor ebx, eax
+        0x466294: add edi, eax
+        0x466296: push edi
+        0x466297: ret
+handlers outputs:
+        bytecode: 0x47fb1c -> 0x47fb20
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1000
+done.
+
+
+
+start analyzing 472114
+        0x472114: movzx eax, byte ptr [esi]
+        0x472118: lea esi, [esi + 1]
+        0x472123: xor al, bl
+        0x47212d: sub al, 0x3a
+        0x472132: ror al, 1
+        0x47213a: neg al
+        0x47213e: not al
+        0x47214c: xor bl, al
+Load [vmp_sp+0x0]
+        0x472151: mov ecx, dword ptr [ebp]
+        0x480797: add ebp, 4
+modifies [x86_sp + 0x1c]
+        0x4807a2: mov dword ptr [esp + eax], ecx
+        0x4807ac: mov eax, dword ptr [esi]
+        0x4807ae: add esi, 4
+        0x4807b8: xor eax, ebx
+        0x4807bb: ror eax, 1
+        0x4807bd: xor eax, 0x4acb3db9
+        0x424132: sub eax, 0x458c0140
+        0x49accf: rol eax, 1
+        0x49acd2: xor ebx, eax
+        0x49acd4: add edi, eax
+        0x42d599: push edi
+        0x42d59a: ret
+handlers outputs:
+        bytecode: 0x47fb20 -> 0x47fb25
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1004
+done.
+
+
+
+start analyzing 43fc2a
+basic block ends with indirect unconditional branch
+basic block ends with indirect unconditional branch
+        0x43fc2a: movzx eax, byte ptr [esi]
+        0x43fc2f: lea esi, [esi + 1]
+        0x43fc35: xor al, bl
+        0x43fc3f: sub al, 0x3a
+        0x43fc42: ror al, 1
+        0x43fc44: neg al
+        0x43fc4e: not al
+        0x43fc54: xor bl, al
+Load Scratch:[0x8]
+        0x43fc57: mov eax, dword ptr [esp + eax]
+        0x486f37: lea ebp, [ebp - 4]
+        0x486f3d: mov dword ptr [ebp], eax
+        0x486f41: mov eax, dword ptr [esi]
+        0x486f46: add esi, 4
+        0x486f4c: xor eax, ebx
+        0x486f4e: ror eax, 1
+        0x486f51: xor eax, 0x4acb3db9
+        0x486f5d: sub eax, 0x458c0140
+        0x486f63: rol eax, 1
+        0x486f65: xor ebx, eax
+        0x486f6d: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47fb25 -> 0x47fb2a
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0xffc
+done.
+
+
+
+start analyzing 45b7ef
+basic block ends with indirect unconditional branch
+basic block ends with indirect unconditional branch
+        0x45b7ef: movzx eax, byte ptr [esi]
+        0x45b7f6: add esi, 1
+        0x45b800: xor al, bl
+        0x45b802: sub al, 0x3a
+        0x45b805: ror al, 1
+        0x45b810: neg al
+        0x45b812: not al
+        0x45b81a: xor bl, al
+Load Scratch:[0x8]
+        0x45b81c: mov eax, dword ptr [esp + eax]
+        0x45b826: lea ebp, [ebp - 4]
+        0x42f000: mov dword ptr [ebp], eax
+        0x42f004: mov eax, dword ptr [esi]
+        0x42f007: lea esi, [esi + 4]
+        0x42f00f: xor eax, ebx
+        0x483e22: ror eax, 1
+        0x483e26: xor eax, 0x4acb3db9
+        0x483e2b: sub eax, 0x458c0140
+        0x483e30: rol eax, 1
+        0x483e32: xor ebx, eax
+        0x483e3b: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47fb2a -> 0x47fb2f
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0xffc
+done.
+
+
+
+start analyzing 43c7e5
+basic block ends with ret
+Load [vmp_sp+0x0]
+        0x43c7e5: mov eax, dword ptr [ebp]
+Load [vmp_sp+0x4]
+        0x43c7eb: mov ecx, dword ptr [ebp + 4]
+        0x43c7f3: not eax
+        0x43c7f5: not ecx
+        0x43d1af: and eax, ecx
+        0x43d1b1: mov dword ptr [ebp + 4], eax
+        0x43d1b8: pushfd
+        0x43d1b9: pop dword ptr [ebp]
+        0x43d1c2: mov eax, dword ptr [esi]
+        0x43d1cb: lea esi, [esi + 4]
+        0x4662af: xor eax, ebx
+        0x43d290: ror eax, 1
+        0x43d294: xor eax, 0x4acb3db9
+        0x43d29f: sub eax, 0x458c0140
+        0x43d2a5: rol eax, 1
+        0x43d2aa: xor ebx, eax
+        0x43d2ac: add edi, eax
+        0x437ae0: push edi
+        0x437ae1: ret
+handlers outputs:
+        bytecode: 0x47fb2f -> 0x47fb33
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1000
+done.
+
+
+
+start analyzing 44efa7
+        0x44efa7: movzx eax, byte ptr [esi]
+        0x44efae: add esi, 1
+        0x430dfd: xor al, bl
+        0x430e06: sub al, 0x3a
+        0x430e11: ror al, 1
+        0x430e13: neg al
+        0x430e1a: not al
+        0x430e21: xor bl, al
+Load [vmp_sp+0x0]
+        0x430e29: mov ecx, dword ptr [ebp]
+        0x430e2d: lea ebp, [ebp + 4]
+modifies [x86_sp + 0x38]
+        0x430e33: mov dword ptr [esp + eax], ecx
+        0x430e3d: mov eax, dword ptr [esi]
+        0x430e45: add esi, 4
+        0x430e4e: xor eax, ebx
+        0x48dca9: ror eax, 1
+        0x48dcac: xor eax, 0x4acb3db9
+        0x48dcb1: sub eax, 0x458c0140
+        0x48dcb8: rol eax, 1
+        0x48dcba: xor ebx, eax
+        0x48dcc2: add edi, eax
+        0x451ade: jmp edi
+handlers outputs:
+        bytecode: 0x47fb33 -> 0x47fb38
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1004
+done.
+
+
+
+start analyzing 441472
+basic block ends with indirect unconditional branch
+basic block ends with indirect unconditional branch
+        0x441472: mov eax, dword ptr [esi]
+        0x441479: add esi, 4
+        0x441481: xor eax, ebx
+        0x441483: lea eax, [eax - 0xc5a392e]
+        0x44148e: bswap eax
+        0x441497: neg eax
+        0x441499: not eax
+        0x44149e: lea eax, [eax - 0x56865200]
+        0x4414a5: xor ebx, eax
+        0x4414a7: sub ebp, 4
+        0x44b92d: mov dword ptr [ebp], eax
+        0x44b939: mov eax, dword ptr [esi]
+        0x44b93b: add esi, 4
+        0x44b941: xor eax, ebx
+        0x44b944: ror eax, 1
+        0x44b94c: xor eax, 0x4acb3db9
+        0x44b951: sub eax, 0x458c0140
+        0x44b956: rol eax, 1
+        0x44b958: xor ebx, eax
+        0x44ceee: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47fb38 -> 0x47fb40
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0xffc
+done.
+
+
+
+start analyzing 44c4d5
+basic block ends with ret
+Load [vmp_sp+0x0]
+        0x44c4d5: mov eax, dword ptr [ebp]
+Load [vmp_sp+0x4]
+        0x44c4db: mov ecx, dword ptr [ebp + 4]
+        0x44c4e0: not eax
+        0x44c4e2: not ecx
+        0x44c4e5: and eax, ecx
+        0x4539c2: mov dword ptr [ebp + 4], eax
+        0x4539c6: pushfd
+        0x4539cc: pop dword ptr [ebp]
+        0x47fff7: mov eax, dword ptr [esi]
+        0x480000: add esi, 4
+        0x48000a: xor eax, ebx
+        0x48000c: ror eax, 1
+        0x48000f: xor eax, 0x4acb3db9
+        0x480014: sub eax, 0x458c0140
+        0x480019: rol eax, 1
+        0x48001b: xor ebx, eax
+        0x48001d: add edi, eax
+        0x48001f: push edi
+        0x480020: ret
+handlers outputs:
+        bytecode: 0x47fb40 -> 0x47fb44
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1000
+done.
+
+
+
+start analyzing 47b865
+        0x47b865: movzx eax, byte ptr [esi]
+        0x47b868: lea esi, [esi + 1]
+        0x47b87a: xor al, bl
+        0x47b885: sub al, 0x3a
+        0x47b889: ror al, 1
+        0x47b891: neg al
+        0x47b89a: not al
+        0x47b8a3: xor bl, al
+Load [vmp_sp+0x0]
+        0x47b8a9: mov ecx, dword ptr [ebp]
+        0x47b8ad: lea ebp, [ebp + 4]
+modifies [x86_sp + 0x1c]
+        0x47b8b3: mov dword ptr [esp + eax], ecx
+        0x47b8c1: mov eax, dword ptr [esi]
+        0x47b8c6: lea esi, [esi + 4]
+        0x470fe8: xor eax, ebx
+        0x470feb: ror eax, 1
+        0x470fed: xor eax, 0x4acb3db9
+        0x470ff9: sub eax, 0x458c0140
+        0x4348d9: rol eax, 1
+        0x4348e2: xor ebx, eax
+        0x4348e5: add edi, eax
+        0x4348e7: push edi
+        0x4348e8: ret
+handlers outputs:
+        bytecode: 0x47fb44 -> 0x47fb49
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1004
+done.
+
+
+
+start analyzing 42e0d5
+basic block ends with indirect unconditional branch
+Load [vmp_sp+0x0]
+        0x42e0d5: mov eax, dword ptr [ebp]
+Load [vmp_sp+0x4]
+        0x42e0de: mov ecx, dword ptr [ebp + 4]
+        0x42e0e4: add eax, ecx
+        0x43ad11: mov dword ptr [ebp + 4], eax
+        0x43ad16: pushfd
+        0x43ad1f: pop dword ptr [ebp]
+        0x43ad29: mov eax, dword ptr [esi]
+        0x43ad2c: lea esi, [esi + 4]
+        0x46e6c2: xor eax, ebx
+        0x46e6c4: ror eax, 1
+        0x46e6cc: xor eax, 0x4acb3db9
+        0x46e6d1: sub eax, 0x458c0140
+        0x426ff4: rol eax, 1
+        0x486409: xor ebx, eax
+        0x48640b: add edi, eax
+        0x48640d: jmp edi
+handlers outputs:
+        bytecode: 0x47fb49 -> 0x47fb4d
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1000
+done.
+
+
+
+start analyzing 44489f
+        0x44489f: movzx eax, byte ptr [esi]
+        0x4448a2: add esi, 1
+        0x4448a8: xor al, bl
+        0x4448ad: sub al, 0x3a
+        0x44c94a: ror al, 1
+        0x44c956: neg al
+        0x44c95d: not al
+        0x44c963: xor bl, al
+Load [vmp_sp+0x0]
+        0x44c96d: mov ecx, dword ptr [ebp]
+        0x459689: lea ebp, [ebp + 4]
+modifies [x86_sp + 0x3c]
+        0x459692: mov dword ptr [esp + eax], ecx
+        0x45969b: mov eax, dword ptr [esi]
+        0x4596a1: lea esi, [esi + 4]
+        0x4596a7: xor eax, ebx
+        0x4596a9: ror eax, 1
+        0x493182: xor eax, 0x4acb3db9
+        0x493190: sub eax, 0x458c0140
+        0x493197: rol eax, 1
+        0x4931a0: xor ebx, eax
+        0x435f4f: add edi, eax
+        0x469396: push edi
+        0x469397: ret
+handlers outputs:
+        bytecode: 0x47fb4d -> 0x47fb52
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1004
+done.
+
+
+
+start analyzing 4892af
+        0x4892af: movzx eax, byte ptr [esi]
+        0x4892b8: lea esi, [esi + 1]
+        0x4892be: xor al, bl
+        0x4892c3: sub al, 0x3a
+        0x4892ce: ror al, 1
+        0x4892d1: neg al
+        0x4892df: not al
+        0x4892ea: xor bl, al
+Load [vmp_sp+0x0]
+        0x4892ef: mov ecx, dword ptr [ebp]
+        0x41a261: lea ebp, [ebp + 4]
+modifies [x86_sp + 0x14]
+        0x41a267: mov dword ptr [esp + eax], ecx
+        0x41a26a: mov eax, dword ptr [esi]
+        0x41a26c: add esi, 4
+        0x41a273: xor eax, ebx
+        0x41a275: ror eax, 1
+        0x41a27e: xor eax, 0x4acb3db9
+        0x45f79c: sub eax, 0x458c0140
+        0x496b0f: rol eax, 1
+        0x496b13: xor ebx, eax
+        0x474c45: add edi, eax
+        0x437e65: jmp edi
+handlers outputs:
+        bytecode: 0x47fb52 -> 0x47fb57
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1004
+done.
+
+
+
+start analyzing 4786ff
+basic block ends with indirect unconditional branch
+basic block ends with indirect unconditional branch
+        0x4786ff: movzx eax, byte ptr [esi]
+        0x478708: lea esi, [esi + 1]
+        0x478714: xor al, bl
+        0x450d2c: sub al, 0x3a
+        0x450d2f: ror al, 1
+        0x450d34: neg al
+        0x450d36: not al
+        0x450d38: xor bl, al
+Load Scratch:[0x28]
+        0x450d3b: mov eax, dword ptr [esp + eax]
+        0x450d43: lea ebp, [ebp - 4]
+        0x446f80: mov dword ptr [ebp], eax
+        0x446f84: mov eax, dword ptr [esi]
+        0x446f86: lea esi, [esi + 4]
+        0x446f93: xor eax, ebx
+        0x446f96: ror eax, 1
+        0x446f99: xor eax, 0x4acb3db9
+        0x446fa7: sub eax, 0x458c0140
+        0x446fac: rol eax, 1
+        0x446fb3: xor ebx, eax
+        0x446fb5: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47fb57 -> 0x47fb5c
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0xffc
+done.
+
+
+
+start analyzing 43a136
+basic block ends with indirect unconditional branch
+basic block ends with indirect unconditional branch
+        0x43a136: mov eax, dword ptr [esi]
+        0x43a13c: lea esi, [esi + 4]
+        0x43a148: xor eax, ebx
+        0x43a14f: lea eax, [eax - 0xc5a392e]
+        0x43a155: bswap eax
+        0x43b641: neg eax
+        0x417b57: not eax
+        0x417b5c: lea eax, [eax - 0x56865200]
+        0x43d911: xor ebx, eax
+        0x43d913: sub ebp, 4
+        0x43d91c: mov dword ptr [ebp], eax
+        0x43d924: mov eax, dword ptr [esi]
+        0x43d926: lea esi, [esi + 4]
+        0x43d933: xor eax, ebx
+        0x43d935: ror eax, 1
+        0x43d938: xor eax, 0x4acb3db9
+        0x43d942: sub eax, 0x458c0140
+        0x43d947: rol eax, 1
+        0x43d950: xor ebx, eax
+        0x43d952: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47fb5c -> 0x47fb64
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0xffc
+done.
+
+
+
+start analyzing 45b707
+basic block ends with indirect unconditional branch
+basic block ends with indirect unconditional branch
+        0x45b707: movzx eax, byte ptr [esi]
+        0x45b70a: lea esi, [esi + 1]
+        0x45b710: xor al, bl
+        0x45b712: sub al, 0x3a
+        0x45b715: ror al, 1
+        0x45b717: neg al
+        0x45b71c: not al
+        0x45b71e: xor bl, al
+Load Scratch:[0x2c]
+        0x45b722: mov eax, dword ptr [esp + eax]
+        0x45b725: sub ebp, 4
+        0x45b72f: mov dword ptr [ebp], eax
+        0x44f254: mov eax, dword ptr [esi]
+        0x44f25f: lea esi, [esi + 4]
+        0x44f265: xor eax, ebx
+        0x44f267: ror eax, 1
+        0x44f269: xor eax, 0x4acb3db9
+        0x44f26e: sub eax, 0x458c0140
+        0x477b82: rol eax, 1
+        0x477b84: xor ebx, eax
+        0x477b87: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47fb64 -> 0x47fb69
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0xffc
+done.
+
+
+
+start analyzing 49af2e
+basic block ends with ret
+Load [vmp_sp+0x0]
+        0x49af2e: mov eax, dword ptr [ebp]
+Load [vmp_sp+0x4]
+        0x49af36: mov ecx, dword ptr [ebp + 4]
+        0x49af3a: add eax, ecx
+        0x481a8f: mov dword ptr [ebp + 4], eax
+        0x481a96: pushfd
+        0x481a97: pop dword ptr [ebp]
+        0x481a9f: mov eax, dword ptr [esi]
+        0x481aa3: add esi, 4
+        0x481ab1: xor eax, ebx
+        0x481ab4: ror eax, 1
+        0x49b032: xor eax, 0x4acb3db9
+        0x49b039: sub eax, 0x458c0140
+        0x49b03e: rol eax, 1
+        0x49b049: xor ebx, eax
+        0x49b04c: add edi, eax
+        0x49b254: push edi
+        0x49b255: ret
+handlers outputs:
+        bytecode: 0x47fb69 -> 0x47fb6d
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1000
+done.
+
+
+
+start analyzing 493fb7
+        0x493fb7: movzx eax, byte ptr [esi]
+        0x493fba: add esi, 1
+        0x493fc8: xor al, bl
+        0x493fd1: sub al, 0x3a
+        0x493fd7: ror al, 1
+        0x493fdf: neg al
+        0x493fea: not al
+        0x493ff2: xor bl, al
+Load [vmp_sp+0x0]
+        0x493ff9: mov ecx, dword ptr [ebp]
+        0x494004: lea ebp, [ebp + 4]
+modifies [x86_sp + 0x38]
+        0x494011: mov dword ptr [esp + eax], ecx
+        0x494014: mov eax, dword ptr [esi]
+        0x494018: lea esi, [esi + 4]
+        0x494022: xor eax, ebx
+        0x494024: ror eax, 1
+        0x494026: xor eax, 0x4acb3db9
+        0x43cb8a: sub eax, 0x458c0140
+        0x43cb90: rol eax, 1
+        0x43cb93: xor ebx, eax
+        0x46688c: add edi, eax
+        0x45b9ad: push edi
+        0x45b9ae: ret
+handlers outputs:
+        bytecode: 0x47fb6d -> 0x47fb72
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1004
+done.
+
+
+
+start analyzing 475039
+basic block ends with indirect unconditional branch
+basic block ends with indirect unconditional branch
+        0x475039: mov eax, dword ptr [esi]
+        0x47503b: lea esi, [esi + 4]
+        0x475042: xor eax, ebx
+        0x475045: lea eax, [eax - 0xc5a392e]
+        0x47504c: bswap eax
+        0x475053: neg eax
+        0x475056: not eax
+        0x475059: lea eax, [eax - 0x56865200]
+        0x47505f: xor ebx, eax
+        0x447aeb: lea ebp, [ebp - 4]
+        0x447af1: mov dword ptr [ebp], eax
+        0x447b02: mov eax, dword ptr [esi]
+        0x44fcfb: add esi, 4
+        0x44fd0a: xor eax, ebx
+        0x453a88: ror eax, 1
+        0x453a8f: xor eax, 0x4acb3db9
+        0x453a96: sub eax, 0x458c0140
+        0x453a9c: rol eax, 1
+        0x453a9e: xor ebx, eax
+        0x453aa2: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47fb72 -> 0x47fb7a
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0xffc
+done.
+
+
+
+start analyzing 480201
+basic block ends with indirect unconditional branch
+Load [vmp_sp+0x0]
+        0x480201: mov ecx, dword ptr [ebp]
+Deref(t93,unknown)
+        0x480205: mov eax, dword ptr [ecx]
+        0x48020d: mov dword ptr [ebp], eax
+        0x480214: mov eax, dword ptr [esi]
+        0x477e50: lea esi, [esi + 4]
+        0x477e5a: xor eax, ebx
+        0x477e5c: ror eax, 1
+        0x477e63: xor eax, 0x4acb3db9
+        0x477e72: sub eax, 0x458c0140
+        0x477e79: rol eax, 1
+        0x477e7f: xor ebx, eax
+        0x477e82: add edi, eax
+        0x4968ed: jmp edi
+handlers outputs:
+        bytecode: 0x47fb7a -> 0x47fb7e
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0x1000
+done.
+
+
+
+start analyzing 41d8ad
+basic block ends with indirect unconditional branch
+basic block ends with indirect unconditional branch
+        0x41d8ad: movzx eax, byte ptr [esi]
+        0x41d8b3: lea esi, [esi + 1]
+        0x41d8bf: xor al, bl
+        0x41d8c8: sub al, 0x3a
+        0x41d8ca: ror al, 1
+        0x41703e: neg al
+        0x417040: not al
+        0x417042: xor bl, al
+Load Scratch:[0x4]
+        0x417045: mov eax, dword ptr [esp + eax]
+        0x41704b: sub ebp, 4
+        0x417051: mov dword ptr [ebp], eax
+        0x41705a: mov eax, dword ptr [esi]
+        0x41705c: lea esi, [esi + 4]
+        0x41706e: xor eax, ebx
+        0x417072: ror eax, 1
+        0x41707a: xor eax, 0x4acb3db9
+        0x417083: sub eax, 0x458c0140
+        0x417089: rol eax, 1
+        0x41708b: xor ebx, eax
+        0x41708f: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47fb7e -> 0x47fb83
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0xffc
+done.
+
+
+
+start analyzing 49734a
+basic block ends with indirect unconditional branch
+basic block ends with indirect unconditional branch
+        0x49734a: movzx eax, byte ptr [esi]
+        0x49734f: lea esi, [esi + 1]
+        0x49735c: xor al, bl
+        0x497362: sub al, 0x3a
+        0x497365: ror al, 1
+        0x49736b: neg al
+        0x497371: not al
+        0x497374: xor bl, al
+Load Scratch:[0x18]
+        0x497378: mov eax, dword ptr [esp + eax]
+        0x4589fa: sub ebp, 4
+        0x44f6d3: mov dword ptr [ebp], eax
+        0x44f6df: mov eax, dword ptr [esi]
+        0x44f6e5: add esi, 4
+        0x48ff08: xor eax, ebx
+        0x48ff0a: ror eax, 1
+        0x48ff0c: xor eax, 0x4acb3db9
+        0x48ff14: sub eax, 0x458c0140
+        0x48ff1a: rol eax, 1
+        0x48ff1f: xor ebx, eax
+        0x48ff21: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47fb83 -> 0x47fb88
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0xffc
+done.
+
+
+
+start analyzing 44fa7a
+basic block ends with indirect unconditional branch
+basic block ends with indirect unconditional branch
+        0x44fa7a: movzx eax, byte ptr [esi]
+        0x44fa7d: add esi, 1
+        0x44fa83: xor al, bl
+        0x44fa8b: sub al, 0x3a
+        0x44fa8d: ror al, 1
+        0x44fa8f: neg al
+        0x4795de: not al
+        0x4795e2: xor bl, al
+Load Scratch:[0x10]
+        0x4795e9: mov eax, dword ptr [esp + eax]
+        0x4795f7: sub ebp, 4
+        0x4795ff: mov dword ptr [ebp], eax
+        0x47960e: mov eax, dword ptr [esi]
+        0x479616: lea esi, [esi + 4]
+        0x479623: xor eax, ebx
+        0x479625: ror eax, 1
+        0x47962e: xor eax, 0x4acb3db9
+        0x479633: sub eax, 0x458c0140
+        0x460927: rol eax, 1
+        0x460929: xor ebx, eax
+        0x46092b: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47fb88 -> 0x47fb8d
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0xffc
+done.
+
+
+
+start analyzing 45f457
+basic block ends with indirect unconditional branch
+basic block ends with indirect unconditional branch
+        0x45f457: movzx eax, byte ptr [esi]
+        0x45f45b: add esi, 1
+        0x45f465: xor al, bl
+        0x45f468: sub al, 0x3a
+        0x45f46a: ror al, 1
+        0x45f470: neg al
+        0x46a3d7: not al
+        0x46a3e0: xor bl, al
+Load Scratch:[0xc]
+        0x46a3e4: mov eax, dword ptr [esp + eax]
+        0x46a3e8: lea ebp, [ebp - 4]
+        0x46a3f1: mov dword ptr [ebp], eax
+        0x46a3fa: mov eax, dword ptr [esi]
+        0x46a403: add esi, 4
+        0x46a409: xor eax, ebx
+        0x46a40c: ror eax, 1
+        0x46a417: xor eax, 0x4acb3db9
+        0x46a424: sub eax, 0x458c0140
+        0x46a42b: rol eax, 1
+        0x46a432: xor ebx, eax
+        0x46a434: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47fb8d -> 0x47fb92
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0xffc
+done.
+
+
+
+start analyzing 441cf6
+        0x441cf6: movzx eax, byte ptr [esi]
+        0x441d02: lea esi, [esi + 1]
+        0x441d0f: xor al, bl
+        0x441d13: sub al, 0x3a
+        0x441d15: ror al, 1
+        0x4596b9: neg al
+        0x4596c0: not al
+        0x4596c2: xor bl, al
+Load Scratch:[0x14]
+        0x4596cb: mov eax, dword ptr [esp + eax]
+        0x4596d2: sub ebp, 4
+        0x4596e2: mov dword ptr [ebp], eax
+        0x4596ec: mov eax, dword ptr [esi]
+        0x4596ee: add esi, 4
+        0x4466ea: xor eax, ebx
+        0x4466ec: ror eax, 1
+        0x4466f3: xor eax, 0x4acb3db9
+        0x4466f8: sub eax, 0x458c0140
+        0x4466fe: rol eax, 1
+        0x446700: xor ebx, eax
+        0x446707: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47fb92 -> 0x47fb97
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0xffc
+done.
+
+
+
+start analyzing 437794
+        0x437794: movzx eax, byte ptr [esi]
+        0x437799: lea esi, [esi + 1]
+        0x4377a7: xor al, bl
+        0x4377aa: sub al, 0x3a
+        0x4377ad: ror al, 1
+        0x4377b3: neg al
+        0x4377b5: not al
+        0x4377bd: xor bl, al
+Load Scratch:[0x30]
+        0x4377c1: mov eax, dword ptr [esp + eax]
+        0x4502ef: lea ebp, [ebp - 4]
+        0x4502f5: mov dword ptr [ebp], eax
+        0x4502f9: mov eax, dword ptr [esi]
+        0x4502fe: add esi, 4
+        0x450305: xor eax, ebx
+        0x450308: ror eax, 1
+        0x45030a: xor eax, 0x4acb3db9
+        0x450310: sub eax, 0x458c0140
+        0x449794: rol eax, 1
+        0x4497a0: xor ebx, eax
+        0x4497a2: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47fb97 -> 0x47fb9c
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0xffc
+done.
+
+
+
+start analyzing 438038
+        0x438038: movzx eax, byte ptr [esi]
+        0x43803c: add esi, 1
+        0x438042: xor al, bl
+        0x438046: sub al, 0x3a
+        0x438049: ror al, 1
+        0x43804e: neg al
+        0x438056: not al
+        0x43805a: xor bl, al
+Load Scratch:[0x20]
+        0x43805f: mov eax, dword ptr [esp + eax]
+        0x438067: lea ebp, [ebp - 4]
+        0x43806f: mov dword ptr [ebp], eax
+        0x438073: mov eax, dword ptr [esi]
+        0x460d5b: add esi, 4
+        0x460d61: xor eax, ebx
+        0x460d65: ror eax, 1
+        0x460d6e: xor eax, 0x4acb3db9
+        0x481c3e: sub eax, 0x458c0140
+        0x481c43: rol eax, 1
+        0x481c46: xor ebx, eax
+        0x481c48: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47fb9c -> 0x47fba1
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0xffc
+done.
+
+
+
+start analyzing 43fc2a
+        0x43fc2a: movzx eax, byte ptr [esi]
+        0x43fc2f: lea esi, [esi + 1]
+        0x43fc35: xor al, bl
+        0x43fc3f: sub al, 0x3a
+        0x43fc42: ror al, 1
+        0x43fc44: neg al
+        0x43fc4e: not al
+        0x43fc54: xor bl, al
+Load Scratch:[0x28]
+        0x43fc57: mov eax, dword ptr [esp + eax]
+        0x486f37: lea ebp, [ebp - 4]
+        0x486f3d: mov dword ptr [ebp], eax
+        0x486f41: mov eax, dword ptr [esi]
+        0x486f46: add esi, 4
+        0x486f4c: xor eax, ebx
+        0x486f4e: ror eax, 1
+        0x486f51: xor eax, 0x4acb3db9
+        0x486f5d: sub eax, 0x458c0140
+        0x486f63: rol eax, 1
+        0x486f65: xor ebx, eax
+        0x486f6d: add edi, eax
+        0x44a8a7: lea eax, [esp + 0x60]
+        0x44a8ac: cmp ebp, eax
+        0x47f287: ja 0x4181bb
+        0x4181bb: jmp edi
+handlers outputs:
+        bytecode: 0x47fba1 -> 0x47fba6
+          x86_sp: 0xf40 -> 0xf40
+          vmp_sp: 0x1000 -> 0xffc
+done.
+
+
+
+start analyzing 4442f0
+basic block ends with ret
+        0x4442f0: mov esp, ebp
+        0x4442f4: pop esi
+        0x444300: pop edx
+        0x444304: pop ebx
+        0x444305: popfd
+        0x44430a: pop edi
+        0x444314: pop eax
+        0x444315: pop ebp
+        0x444316: pop ecx
+        0x43f92a: ret
+handlers outputs:
+        bytecode: 0x47fba6 -> 0x1000
+          x86_sp: 0xf40 -> 0x1024
+          vmp_sp: 0x1000 -> 0x0
+done.
+
+
+
+        Push (0x9486cfea)
+        Push (0x4869c5)
+        Push (ecx)
+        Push (ebp)
+        Push (eax)
+        Push (edi)
+        Push (eflags)
+        Push (ebx)
+        Push (edx)
+        Push (esi)
+        Push (0x0)
+        t1_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        dword ptr scratch:[0x2c]=t1_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0x4)
+        t2_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        dword ptr scratch:[0x28]=t2_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0x4)
+        t3_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        dword ptr scratch:[0x20]=t3_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0x4)
+        t4_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        dword ptr scratch:[0x30]=t4_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0x4)
+        t5_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        dword ptr scratch:[0x14]=t5_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0x4)
+        t6_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        dword ptr scratch:[0xc]=t6_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0x4)
+        t7_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        dword ptr scratch:[0x10]=t7_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0x4)
+        t8_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        dword ptr scratch:[0x0]=t8_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0x4)
+        t9_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        dword ptr scratch:[0x4]=t9_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0x4)
+        t10_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        dword ptr scratch:[0x34]=t10_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0x4)
+        t11_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        dword ptr scratch:[0x34]=t11_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0x4)
+        t12_dword=dword ptr scratch:[0x0]
+        dword ptr regular:[Add(vmp_sp_dword, 0xfffffffffffffffc)]=t12_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0xfffffffffffffffc)
+        dword ptr regular:[Add(vmp_sp_dword, 0xfffffffffffffffc)]=vmp_sp_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0xfffffffffffffffc)
+        t13_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        dword ptr scratch:[0x18]=t13_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0x4)
+        dword ptr regular:[Add(vmp_sp_dword, 0xfffffffffffffffc)]=0x200
+        vmp_sp_dword=Add(vmp_sp_dword, 0xfffffffffffffffc)
+        dword ptr regular:[Add(vmp_sp_dword, 0xfffffffffffffffc)]=vmp_sp_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0xfffffffffffffffc)
+        dword ptr regular:[Add(vmp_sp_dword, 0xfffffffffffffffc)]=0x4
+        vmp_sp_dword=Add(vmp_sp_dword, 0xfffffffffffffffc)
+        t14_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        t15_dword=dword ptr regular:[Add(vmp_sp_dword, 0x4)]
+        t16_dword=Add(t14_dword, t15_dword)
+        t17_dword=FlagsOf(Add(t14_dword, t15_dword))
+        dword ptr regular:[Add(vmp_sp_dword, 0x4)]=t16_dword
+        dword ptr regular:[Add(vmp_sp_dword, 0x0)]=t17_dword
+        t18_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        dword ptr scratch:[0x38]=t18_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0x4)
+        dword ptr regular:[Add(vmp_sp_dword, 0xfffffffffffffffc)]=vmp_sp_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0xfffffffffffffffc)
+        dword ptr regular:[Add(vmp_sp_dword, 0xfffffffffffffffc)]=0x8
+        vmp_sp_dword=Add(vmp_sp_dword, 0xfffffffffffffffc)
+        t19_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        t20_dword=dword ptr regular:[Add(vmp_sp_dword, 0x4)]
+        t21_dword=Add(t19_dword, t20_dword)
+        t22_dword=FlagsOf(Add(t19_dword, t20_dword))
+        dword ptr regular:[Add(vmp_sp_dword, 0x4)]=t21_dword
+        dword ptr regular:[Add(vmp_sp_dword, 0x0)]=t22_dword
+        t23_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        dword ptr scratch:[0x38]=t23_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0x4)
+        t24_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        t25_dword=dword ptr regular:[Add(vmp_sp_dword, 0x4)]
+        t26_dword=Not(t24_dword)
+        t27_dword=Not(t25_dword)
+        t28_dword=And(t26_dword, t27_dword)
+        t29_dword=FlagsOf(And(t26_dword, t27_dword))
+        dword ptr regular:[Add(vmp_sp_dword, 0x4)]=t28_dword
+        dword ptr regular:[Add(vmp_sp_dword, 0x0)]=t29_dword
+        t30_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        dword ptr scratch:[0x24]=t30_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0x4)
+        t31_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        t32_dword=dword ptr regular:[Add(vmp_sp_dword, 0x4)]
+        t33_dword=Add(t31_dword, t32_dword)
+        t34_dword=FlagsOf(Add(t31_dword, t32_dword))
+        dword ptr regular:[Add(vmp_sp_dword, 0x4)]=t33_dword
+        dword ptr regular:[Add(vmp_sp_dword, 0x0)]=t34_dword
+        t35_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        dword ptr scratch:[0x24]=t35_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0x4)
+        dword ptr regular:[Add(vmp_sp_dword, 0xfffffffffffffffc)]=vmp_sp_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0xfffffffffffffffc)
+        t36_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        t37_dword=dword ptr ss:[t36_dword]
+        dword ptr regular:[Add(vmp_sp_dword, 0x0)]=t37_dword
+        t38_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        t39_dword=dword ptr regular:[Add(vmp_sp_dword, 0x4)]
+        t40_dword=Not(t38_dword)
+        t41_dword=Not(t39_dword)
+        t42_dword=And(t40_dword, t41_dword)
+        t43_dword=FlagsOf(And(t40_dword, t41_dword))
+        dword ptr regular:[Add(vmp_sp_dword, 0x4)]=t42_dword
+        dword ptr regular:[Add(vmp_sp_dword, 0x0)]=t43_dword
+        t44_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        dword ptr scratch:[0x8]=t44_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0x4)
+        t45_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        t46_dword=Cmp(t45_dword, 0xfa0)
+        t47_dword=FlagsOf(Cmp(t45_dword, 0xfa0))
+        t48_dword=dword ptr scratch:[0x24]
+        dword ptr regular:[Add(vmp_sp_dword, 0xfffffffffffffffc)]=t48_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0xfffffffffffffffc)
+        t49_dword=dword ptr scratch:[0x24]
+        dword ptr regular:[Add(vmp_sp_dword, 0xfffffffffffffffc)]=t49_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0xfffffffffffffffc)
+        t50_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        t51_dword=dword ptr regular:[Add(vmp_sp_dword, 0x4)]
+        t52_dword=Not(t50_dword)
+        t53_dword=Not(t51_dword)
+        t54_dword=And(t52_dword, t53_dword)
+        t55_dword=FlagsOf(And(t52_dword, t53_dword))
+        dword ptr regular:[Add(vmp_sp_dword, 0x4)]=t54_dword
+        dword ptr regular:[Add(vmp_sp_dword, 0x0)]=t55_dword
+        t56_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        dword ptr scratch:[0x38]=t56_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0x4)
+        dword ptr regular:[Add(vmp_sp_dword, 0xfffffffffffffffc)]=0xfffff7ea
+        vmp_sp_dword=Add(vmp_sp_dword, 0xfffffffffffffffc)
+        t57_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        t58_dword=dword ptr regular:[Add(vmp_sp_dword, 0x4)]
+        t59_dword=Not(t57_dword)
+        t60_dword=Not(t58_dword)
+        t61_dword=And(t59_dword, t60_dword)
+        t62_dword=FlagsOf(And(t59_dword, t60_dword))
+        dword ptr regular:[Add(vmp_sp_dword, 0x4)]=t61_dword
+        dword ptr regular:[Add(vmp_sp_dword, 0x0)]=t62_dword
+        t63_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        dword ptr scratch:[0x1c]=t63_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0x4)
+        t64_dword=dword ptr scratch:[0x8]
+        dword ptr regular:[Add(vmp_sp_dword, 0xfffffffffffffffc)]=t64_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0xfffffffffffffffc)
+        t65_dword=dword ptr scratch:[0x8]
+        dword ptr regular:[Add(vmp_sp_dword, 0xfffffffffffffffc)]=t65_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0xfffffffffffffffc)
+        t66_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        t67_dword=dword ptr regular:[Add(vmp_sp_dword, 0x4)]
+        t68_dword=Not(t66_dword)
+        t69_dword=Not(t67_dword)
+        t70_dword=And(t68_dword, t69_dword)
+        t71_dword=FlagsOf(And(t68_dword, t69_dword))
+        dword ptr regular:[Add(vmp_sp_dword, 0x4)]=t70_dword
+        dword ptr regular:[Add(vmp_sp_dword, 0x0)]=t71_dword
+        t72_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        dword ptr scratch:[0x38]=t72_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0x4)
+        dword ptr regular:[Add(vmp_sp_dword, 0xfffffffffffffffc)]=0x815
+        vmp_sp_dword=Add(vmp_sp_dword, 0xfffffffffffffffc)
+        t73_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        t74_dword=dword ptr regular:[Add(vmp_sp_dword, 0x4)]
+        t75_dword=Not(t73_dword)
+        t76_dword=Not(t74_dword)
+        t77_dword=And(t75_dword, t76_dword)
+        t78_dword=FlagsOf(And(t75_dword, t76_dword))
+        dword ptr regular:[Add(vmp_sp_dword, 0x4)]=t77_dword
+        dword ptr regular:[Add(vmp_sp_dword, 0x0)]=t78_dword
+        t79_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        dword ptr scratch:[0x1c]=t79_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0x4)
+        t80_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        t81_dword=dword ptr regular:[Add(vmp_sp_dword, 0x4)]
+        t82_dword=Add(t80_dword, t81_dword)
+        t83_dword=FlagsOf(Add(t80_dword, t81_dword))
+        dword ptr regular:[Add(vmp_sp_dword, 0x4)]=t82_dword
+        dword ptr regular:[Add(vmp_sp_dword, 0x0)]=t83_dword
+        t84_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        dword ptr scratch:[0x3c]=t84_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0x4)
+        t85_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        dword ptr scratch:[0x14]=t85_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0x4)
+        t86_dword=dword ptr scratch:[0x28]
+        dword ptr regular:[Add(vmp_sp_dword, 0xfffffffffffffffc)]=t86_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0xfffffffffffffffc)
+        dword ptr regular:[Add(vmp_sp_dword, 0xfffffffffffffffc)]=0x4312d7
+        vmp_sp_dword=Add(vmp_sp_dword, 0xfffffffffffffffc)
+        t87_dword=dword ptr scratch:[0x2c]
+        dword ptr regular:[Add(vmp_sp_dword, 0xfffffffffffffffc)]=t87_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0xfffffffffffffffc)
+        t88_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        t89_dword=dword ptr regular:[Add(vmp_sp_dword, 0x4)]
+        t90_dword=Add(t88_dword, t89_dword)
+        t91_dword=FlagsOf(Add(t88_dword, t89_dword))
+        dword ptr regular:[Add(vmp_sp_dword, 0x4)]=t90_dword
+        dword ptr regular:[Add(vmp_sp_dword, 0x0)]=t91_dword
+        t92_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        dword ptr scratch:[0x38]=t92_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0x4)
+        dword ptr regular:[Add(vmp_sp_dword, 0xfffffffffffffffc)]=0x40e068
+        vmp_sp_dword=Add(vmp_sp_dword, 0xfffffffffffffffc)
+        t93_dword=dword ptr regular:[Add(vmp_sp_dword, 0x0)]
+        t94_dword=dword ptr regular:[t93_dword]
+        dword ptr regular:[Add(vmp_sp_dword, 0x0)]=t94_dword
+        t95_dword=dword ptr scratch:[0x4]
+        dword ptr regular:[Add(vmp_sp_dword, 0xfffffffffffffffc)]=t95_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0xfffffffffffffffc)
+        t96_dword=dword ptr scratch:[0x18]
+        dword ptr regular:[Add(vmp_sp_dword, 0xfffffffffffffffc)]=t96_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0xfffffffffffffffc)
+        t97_dword=dword ptr scratch:[0x10]
+        dword ptr regular:[Add(vmp_sp_dword, 0xfffffffffffffffc)]=t97_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0xfffffffffffffffc)
+        t98_dword=dword ptr scratch:[0xc]
+        dword ptr regular:[Add(vmp_sp_dword, 0xfffffffffffffffc)]=t98_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0xfffffffffffffffc)
+        t99_dword=dword ptr scratch:[0x14]
+        dword ptr regular:[Add(vmp_sp_dword, 0xfffffffffffffffc)]=t99_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0xfffffffffffffffc)
+        t100_dword=dword ptr scratch:[0x30]
+        dword ptr regular:[Add(vmp_sp_dword, 0xfffffffffffffffc)]=t100_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0xfffffffffffffffc)
+        t101_dword=dword ptr scratch:[0x20]
+        dword ptr regular:[Add(vmp_sp_dword, 0xfffffffffffffffc)]=t101_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0xfffffffffffffffc)
+        t102_dword=dword ptr scratch:[0x28]
+        dword ptr regular:[Add(vmp_sp_dword, 0xfffffffffffffffc)]=t102_dword
+        vmp_sp_dword=Add(vmp_sp_dword, 0xfffffffffffffffc)
+        Pop (esi)
+        Pop (edx)
+        Pop (ebx)
+        Pop (eflags)
+        Pop (edi)
+        Pop (eax)
+        Pop (ebp)
+        Pop (ecx)
+        Ret 0x0
+
+
+C:\Users\Lily\source\repos\VMProtectTest\x64\Release\VMProtectTest.exe (プロセス 13656) は、コード 0 で終了しました。
+このウィンドウを閉じるには、任意のキーを押してください...

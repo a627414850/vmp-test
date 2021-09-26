@@ -1,0 +1,830 @@
+pid: 00002D98
+        4312d7 - push 0x9485b854
+        4312dc - call 0x481348
+        481348 - push ecx
+        436418 - push ebp
+        436419 - push eax
+        41f637 - push edi
+        41f63b - pushfd
+        41f640 - push ebx
+        41f644 - push edx
+        41f64d - push esi
+        41f661 - push 0x0
+        41f68f - mov ebp, esp
+        41f69a - sub esp, 0xc0
+b-432085:
+        4320b6 - mov ecx, dword ptr [ebp]
+        4320bf - add ebp, 0x4
+        4320c5 - mov dword ptr [esp+0x14], ecx
+b-43285a:
+        485afa - mov ecx, dword ptr [ebp]
+        485b01 - add ebp, 0x4
+        485b07 - mov dword ptr [esp+0x38], ecx
+b-472114:
+        472151 - mov ecx, dword ptr [ebp]
+        480797 - add ebp, 0x4
+        4807a2 - mov dword ptr [esp+0x28], ecx
+b-44efa7:
+        430e29 - mov ecx, dword ptr [ebp]
+        430e2d - lea ebp, ptr [ebp+0x4]
+        430e33 - mov dword ptr [esp+0x8], ecx
+b-47b865:
+        47b8a9 - mov ecx, dword ptr [ebp]
+        47b8ad - lea ebp, ptr [ebp+0x4]
+        47b8b3 - mov dword ptr [esp+0x2c], ecx
+b-44489f:
+        44c96d - mov ecx, dword ptr [ebp]
+        459689 - lea ebp, ptr [ebp+0x4]
+        459692 - mov dword ptr [esp+0x18], ecx
+b-4892af:
+        4892ef - mov ecx, dword ptr [ebp]
+        41a261 - lea ebp, ptr [ebp+0x4]
+        41a267 - mov dword ptr [esp+0x1c], ecx
+b-493fb7:
+        493ff9 - mov ecx, dword ptr [ebp]
+        494004 - lea ebp, ptr [ebp+0x4]
+        494011 - mov dword ptr [esp+0x30], ecx
+b-43cebf:
+        43cef1 - mov ecx, dword ptr [ebp]
+        43cef6 - lea ebp, ptr [ebp+0x4]
+        43cf03 - mov dword ptr [esp+0x3c], ecx
+b-42eda2:
+        42eded - mov ecx, dword ptr [ebp]
+        42edf1 - lea ebp, ptr [ebp+0x4]
+        42edfe - mov dword ptr [esp+0x10], ecx
+b-43cc41:
+        43cc7b - mov ecx, dword ptr [ebp]
+        43cc83 - add ebp, 0x4
+        43cc89 - mov dword ptr [esp+0x4], ecx
+b-438038:
+        43805f - mov eax, dword ptr [esp+0x1c]
+        438067 - lea ebp, ptr [ebp-0x4]
+        43806f - mov dword ptr [ebp], eax
+b-49afdf:
+        445130 - sub ebp, 0x4
+        445142 - mov dword ptr [ebp], 0x82371
+b-447c65:
+        447c65 - mov eax, dword ptr [ebp]
+        447c69 - mov ecx, dword ptr [ebp+0x4]
+        447c6d - add eax, ecx
+        427f0b - mov dword ptr [ebp+0x4], eax
+        46b282 - pushfd
+        46b287 - pop dword ptr [ebp]
+b-441472:
+        4414a7 - sub ebp, 0x4
+        44b92d - mov dword ptr [ebp], 0x9d6e992b
+b-432085:
+        4320b6 - mov ecx, dword ptr [ebp]
+        4320bf - add ebp, 0x4
+        4320c5 - mov dword ptr [esp+0x34], ecx
+b-43285a:
+        485afa - mov ecx, dword ptr [ebp]
+        485b01 - add ebp, 0x4
+        485b07 - mov dword ptr [esp+0x20], ecx
+b-472114:
+        472151 - mov ecx, dword ptr [ebp]
+        480797 - add ebp, 0x4
+        4807a2 - mov dword ptr [esp+0x10], ecx
+b-43fc2a:
+        43fc57 - mov eax, dword ptr [esp+0x10]
+        486f37 - lea ebp, ptr [ebp-0x4]
+        486f3d - mov dword ptr [ebp], eax
+b-45b7ef:
+        45b81c - mov eax, dword ptr [esp+0x34]
+        45b826 - lea ebp, ptr [ebp-0x4]
+        42f000 - mov dword ptr [ebp], eax
+b-41dbb7:
+        41dbb7 - mov eax, dword ptr [ebp+0x4]
+        41dbbe - mov edx, dword ptr [ebp]
+        41dbc2 - lea ebp, ptr [ebp-0x4]
+        41dbc8 - mul edx
+        41dbca - mov dword ptr [ebp+0x4], edx
+        41dbce - mov dword ptr [ebp+0x8], eax
+        41dbd8 - pushfd
+        41dbd9 - pop dword ptr [ebp]
+b-44efa7:
+        430e29 - mov ecx, dword ptr [ebp]
+        430e2d - lea ebp, ptr [ebp+0x4]
+        430e33 - mov dword ptr [esp+0x24], ecx
+b-47b865:
+        47b8a9 - mov ecx, dword ptr [ebp]
+        47b8ad - lea ebp, ptr [ebp+0x4]
+        47b8b3 - mov dword ptr [esp+0x38], ecx
+b-431e0d:
+        424924 - lea ebp, ptr [ebp-0x2]
+        42492a - mov word ptr [ebp], 0xe
+b-4786ff:
+        450d3b - mov eax, dword ptr [esp+0x38]
+        450d43 - lea ebp, ptr [ebp-0x4]
+        446f80 - mov dword ptr [ebp], eax
+b-44c0bf:
+        44c0bf - mov eax, dword ptr [ebp]
+        44c0c9 - mov cl, byte ptr [ebp+0x4]
+        44c0d0 - lea ebp, ptr [ebp-0x2]
+        44c0d6 - shr eax, cl
+        44c0d8 - mov dword ptr [ebp+0x4], eax
+        44c0e0 - pushfd
+        44c0e5 - pop dword ptr [ebp]
+b-44489f:
+        44c96d - mov ecx, dword ptr [ebp]
+        459689 - lea ebp, ptr [ebp+0x4]
+        459692 - mov dword ptr [esp], ecx
+b-4892af:
+        4892ef - mov ecx, dword ptr [ebp]
+        41a261 - lea ebp, ptr [ebp+0x4]
+        41a267 - mov dword ptr [esp+0xc], ecx
+b-43eb8a:
+        46b833 - lea ebp, ptr [ebp-0x4]
+        46b842 - mov dword ptr [ebp], 0x6812
+b-45b707:
+        45b722 - mov eax, dword ptr [esp+0xc]
+        45b725 - sub ebp, 0x4
+        45b72f - mov dword ptr [ebp], eax
+b-47c7eb:
+        47c7eb - mov eax, dword ptr [ebp+0x4]
+        47c7f6 - mov edx, dword ptr [ebp]
+        47c7fa - lea ebp, ptr [ebp-0x4]
+        47c804 - imul edx
+        43a8ee - mov dword ptr [ebp+0x4], edx
+        41a688 - mov dword ptr [ebp+0x8], eax
+        41a692 - pushfd
+        41a693 - pop dword ptr [ebp]
+b-493fb7:
+        493ff9 - mov ecx, dword ptr [ebp]
+        494004 - lea ebp, ptr [ebp+0x4]
+        494011 - mov dword ptr [esp+0x24], ecx
+b-43cebf:
+        43cef1 - mov ecx, dword ptr [ebp]
+        43cef6 - lea ebp, ptr [ebp+0x4]
+        43cf03 - mov dword ptr [esp+0x4], ecx
+b-42eda2:
+        42eded - mov ecx, dword ptr [ebp]
+        42edf1 - lea ebp, ptr [ebp+0x4]
+        42edfe - mov dword ptr [esp+0x4], ecx
+b-41d8ad:
+        417045 - mov eax, dword ptr [esp+0x4]
+        41704b - sub ebp, 0x4
+        417051 - mov dword ptr [ebp], eax
+b-49734a:
+        497378 - mov eax, dword ptr [esp+0x10]
+        4589fa - sub ebp, 0x4
+        44f6d3 - mov dword ptr [ebp], eax
+b-44fa7a:
+        4795e9 - mov eax, dword ptr [esp+0x10]
+        4795f7 - sub ebp, 0x4
+        4795ff - mov dword ptr [ebp], eax
+b-463fb4:
+        463fb4 - mov eax, dword ptr [ebp]
+        463fbf - mov ecx, dword ptr [ebp+0x4]
+        463fc8 - not eax
+        463fca - not ecx
+        463fcc - and eax, ecx
+        425d17 - mov dword ptr [ebp+0x4], eax
+        425d1d - pushfd
+        425d29 - pop dword ptr [ebp]
+b-43cc41:
+        43cc7b - mov ecx, dword ptr [ebp]
+        43cc83 - add ebp, 0x4
+        43cc89 - mov dword ptr [esp+0x28], ecx
+b-44eeb7:
+        44eeb7 - mov eax, dword ptr [ebp]
+        44eebb - mov ecx, dword ptr [ebp+0x4]
+        44eec0 - add eax, ecx
+        46c274 - mov dword ptr [ebp+0x4], eax
+        46c27c - pushfd
+        46c285 - pop dword ptr [ebp]
+b-432085:
+        4320b6 - mov ecx, dword ptr [ebp]
+        4320bf - add ebp, 0x4
+        4320c5 - mov dword ptr [esp+0x38], ecx
+b-421453:
+        421453 - mov eax, ebp
+        42145b - sub ebp, 0x4
+        421467 - mov dword ptr [ebp], eax
+b-455b90:
+        455b90 - mov ecx, dword ptr [ebp]
+        455b98 - mov eax, dword ptr ss:[ecx]
+        455b9b - mov dword ptr [ebp], eax
+b-47e3ff:
+        47e3ff - mov eax, dword ptr [ebp]
+        47e403 - mov ecx, dword ptr [ebp+0x4]
+        47e40b - not eax
+        45700b - not ecx
+        457011 - and eax, ecx
+        457013 - mov dword ptr [ebp+0x4], eax
+        45701a - pushfd
+        45701b - pop dword ptr [ebp]
+b-43285a:
+        485afa - mov ecx, dword ptr [ebp]
+        485b01 - add ebp, 0x4
+        485b07 - mov dword ptr [esp+0x28], ecx
+b-472114:
+        472151 - mov ecx, dword ptr [ebp]
+        480797 - add ebp, 0x4
+        4807a2 - mov dword ptr [esp+0x1c], ecx
+b-475039:
+        447aeb - lea ebp, ptr [ebp-0x4]
+        447af1 - mov dword ptr [ebp], 0xffffffff
+b-45f457:
+        46a3e4 - mov eax, dword ptr [esp+0x1c]
+        46a3e8 - lea ebp, ptr [ebp-0x4]
+        46a3f1 - mov dword ptr [ebp], eax
+b-444e5a:
+        444e5a - mov eax, dword ptr [ebp]
+        444e64 - mov ecx, dword ptr [ebp+0x4]
+        444e70 - add eax, ecx
+        444e72 - mov dword ptr [ebp+0x4], eax
+        444e76 - pushfd
+        444e7f - pop dword ptr [ebp]
+b-44efa7:
+        430e29 - mov ecx, dword ptr [ebp]
+        430e2d - lea ebp, ptr [ebp+0x4]
+        430e33 - mov dword ptr [esp+0x24], ecx
+b-47b865:
+        47b8a9 - mov ecx, dword ptr [ebp]
+        47b8ad - lea ebp, ptr [ebp+0x4]
+        47b8b3 - mov dword ptr [esp+0x38], ecx
+b-441cf6:
+        4596cb - mov eax, dword ptr [esp+0x2c]
+        4596d2 - sub ebp, 0x4
+        4596e2 - mov dword ptr [ebp], eax
+b-437794:
+        4377c1 - mov eax, dword ptr [esp+0x2c]
+        4502ef - lea ebp, ptr [ebp-0x4]
+        4502f5 - mov dword ptr [ebp], eax
+b-487b17:
+        487b17 - mov eax, dword ptr [ebp]
+        487b1b - mov ecx, dword ptr [ebp+0x4]
+        487b21 - not eax
+        460771 - not ecx
+        460774 - and eax, ecx
+        460485 - mov dword ptr [ebp+0x4], eax
+        46048a - pushfd
+        46048b - pop dword ptr [ebp]
+b-44489f:
+        44c96d - mov ecx, dword ptr [ebp]
+        459689 - lea ebp, ptr [ebp+0x4]
+        459692 - mov dword ptr [esp+0x3c], ecx
+b-43a136:
+        43d913 - sub ebp, 0x4
+        43d91c - mov dword ptr [ebp], 0xfffffffe
+b-45c2f6:
+        45c2f6 - mov eax, dword ptr [ebp]
+        45c2fa - mov ecx, dword ptr [ebp+0x4]
+        45c304 - not eax
+        45c306 - not ecx
+        45c308 - and eax, ecx
+        466256 - mov dword ptr [ebp+0x4], eax
+        46625d - pushfd
+        466263 - pop dword ptr [ebp]
+b-4892af:
+        4892ef - mov ecx, dword ptr [ebp]
+        41a261 - lea ebp, ptr [ebp+0x4]
+        41a267 - mov dword ptr [esp+0x20], ecx
+b-438038:
+        43805f - mov eax, dword ptr [esp+0x24]
+        438067 - lea ebp, ptr [ebp-0x4]
+        43806f - mov dword ptr [ebp], eax
+b-43fc2a:
+        43fc57 - mov eax, dword ptr [esp+0x24]
+        486f37 - lea ebp, ptr [ebp-0x4]
+        486f3d - mov dword ptr [ebp], eax
+b-43c7e5:
+        43c7e5 - mov eax, dword ptr [ebp]
+        43c7eb - mov ecx, dword ptr [ebp+0x4]
+        43c7f3 - not eax
+        43c7f5 - not ecx
+        43d1af - and eax, ecx
+        43d1b1 - mov dword ptr [ebp+0x4], eax
+        43d1b8 - pushfd
+        43d1b9 - pop dword ptr [ebp]
+b-493fb7:
+        493ff9 - mov ecx, dword ptr [ebp]
+        494004 - lea ebp, ptr [ebp+0x4]
+        494011 - mov dword ptr [esp], ecx
+b-45d66b:
+        47f5f9 - sub ebp, 0x4
+        47f5ff - mov dword ptr [ebp], 0x1
+b-44c4d5:
+        44c4d5 - mov eax, dword ptr [ebp]
+        44c4db - mov ecx, dword ptr [ebp+0x4]
+        44c4e0 - not eax
+        44c4e2 - not ecx
+        44c4e5 - and eax, ecx
+        4539c2 - mov dword ptr [ebp+0x4], eax
+        4539c6 - pushfd
+        4539cc - pop dword ptr [ebp]
+b-43cebf:
+        43cef1 - mov ecx, dword ptr [ebp]
+        43cef6 - lea ebp, ptr [ebp+0x4]
+        43cf03 - mov dword ptr [esp+0x10], ecx
+b-4365af:
+        4365af - mov eax, dword ptr [ebp]
+        4365c0 - mov ecx, dword ptr [ebp+0x4]
+        4365ca - add eax, ecx
+        4365cc - mov dword ptr [ebp+0x4], eax
+        4365d0 - pushfd
+        4365d2 - pop dword ptr [ebp]
+b-42eda2:
+        42eded - mov ecx, dword ptr [ebp]
+        42edf1 - lea ebp, ptr [ebp+0x4]
+        42edfe - mov dword ptr [esp], ecx
+b-43cc41:
+        43cc7b - mov ecx, dword ptr [ebp]
+        43cc83 - add ebp, 0x4
+        43cc89 - mov dword ptr [esp+0x10], ecx
+b-45b7ef:
+        45b81c - mov eax, dword ptr [esp+0x10]
+        45b826 - lea ebp, ptr [ebp-0x4]
+        42f000 - mov dword ptr [ebp], eax
+b-4786ff:
+        450d3b - mov eax, dword ptr [esp+0x10]
+        450d43 - lea ebp, ptr [ebp-0x4]
+        446f80 - mov dword ptr [ebp], eax
+b-460b0f:
+        460b0f - mov eax, dword ptr [ebp]
+        460b13 - mov ecx, dword ptr [ebp+0x4]
+        460b1d - not eax
+        43416d - not ecx
+        499708 - and eax, ecx
+        44c1e0 - mov dword ptr [ebp+0x4], eax
+        44c1e7 - pushfd
+        44c1f2 - pop dword ptr [ebp]
+b-432085:
+        4320b6 - mov ecx, dword ptr [ebp]
+        4320bf - add ebp, 0x4
+        4320c5 - mov dword ptr [esp], ecx
+b-449d98:
+        449dc2 - sub ebp, 0x4
+        449dc9 - mov dword ptr [ebp], 0xffffffef
+b-48bc0d:
+        48bc0d - mov eax, dword ptr [ebp]
+        48bc11 - mov ecx, dword ptr [ebp+0x4]
+        48bc1b - not eax
+        48bc1d - not ecx
+        46fea9 - and eax, ecx
+        491871 - mov dword ptr [ebp+0x4], eax
+        491879 - pushfd
+        49187f - pop dword ptr [ebp]
+b-43285a:
+        485afa - mov ecx, dword ptr [ebp]
+        485b01 - add ebp, 0x4
+        485b07 - mov dword ptr [esp+0x1c], ecx
+b-45b707:
+        45b722 - mov eax, dword ptr [esp+0x10]
+        45b725 - sub ebp, 0x4
+        45b72f - mov dword ptr [ebp], eax
+b-479a61:
+        479a96 - sub ebp, 0x4
+        479a9e - mov dword ptr [ebp], 0x10
+b-433194:
+        433194 - mov eax, dword ptr [ebp]
+        43319e - mov ecx, dword ptr [ebp+0x4]
+        4331a2 - not eax
+        4331aa - not ecx
+        4331b0 - and eax, ecx
+        48e3cc - mov dword ptr [ebp+0x4], eax
+        48e3d0 - pushfd
+        48e3d3 - pop dword ptr [ebp]
+b-472114:
+        472151 - mov ecx, dword ptr [ebp]
+        480797 - add ebp, 0x4
+        4807a2 - mov dword ptr [esp+0x20], ecx
+b-437c46:
+        437c46 - mov eax, dword ptr [ebp]
+        437c4e - mov ecx, dword ptr [ebp+0x4]
+        437c58 - not eax
+        42d637 - not ecx
+        42d63c - and eax, ecx
+        46397d - mov dword ptr [ebp+0x4], eax
+        42fd9d - pushfd
+        42fda8 - pop dword ptr [ebp]
+b-44efa7:
+        430e29 - mov ecx, dword ptr [ebp]
+        430e2d - lea ebp, ptr [ebp+0x4]
+        430e33 - mov dword ptr [esp+0x1c], ecx
+b-47b865:
+        47b8a9 - mov ecx, dword ptr [ebp]
+        47b8ad - lea ebp, ptr [ebp+0x4]
+        47b8b3 - mov dword ptr [esp+0x3c], ecx
+b-44489f:
+        44c96d - mov ecx, dword ptr [ebp]
+        459689 - lea ebp, ptr [ebp+0x4]
+        459692 - mov dword ptr [esp+0x20], ecx
+b-49b6fa:
+        435c62 - lea ebp, ptr [ebp-0x4]
+        435c68 - mov dword ptr [ebp], 0x2180
+b-41d8ad:
+        417045 - mov eax, dword ptr [esp+0x38]
+        41704b - sub ebp, 0x4
+        417051 - mov dword ptr [ebp], eax
+b-481806:
+        481806 - mov eax, dword ptr [ebp+0x4]
+        48180a - mov edx, dword ptr [ebp]
+        481811 - lea ebp, ptr [ebp-0x4]
+        481819 - imul edx
+        4543e3 - mov dword ptr [ebp+0x4], edx
+        47c8ae - mov dword ptr [ebp+0x8], eax
+        47c8b9 - pushfd
+        47c8c0 - pop dword ptr [ebp]
+b-4892af:
+        4892ef - mov ecx, dword ptr [ebp]
+        41a261 - lea ebp, ptr [ebp+0x4]
+        41a267 - mov dword ptr [esp+0x34], ecx
+b-493fb7:
+        493ff9 - mov ecx, dword ptr [ebp]
+        494004 - lea ebp, ptr [ebp+0x4]
+        494011 - mov dword ptr [esp+0x34], ecx
+b-43cebf:
+        43cef1 - mov ecx, dword ptr [ebp]
+        43cef6 - lea ebp, ptr [ebp+0x4]
+        43cf03 - mov dword ptr [esp+0x34], ecx
+b-42ae29:
+        45a6a4 - sub ebp, 0x4
+        45a6ac - mov dword ptr [ebp], 0x80002aff
+b-49734a:
+        497378 - mov eax, dword ptr [esp+0x34]
+        4589fa - sub ebp, 0x4
+        44f6d3 - mov dword ptr [ebp], eax
+b-44fa7a:
+        4795e9 - mov eax, dword ptr [esp+0x34]
+        4795f7 - sub ebp, 0x4
+        4795ff - mov dword ptr [ebp], eax
+b-47308d:
+        47308d - mov eax, dword ptr [ebp]
+        473093 - mov ecx, dword ptr [ebp+0x4]
+        47309b - not eax
+        47309e - not ecx
+        4730a2 - and eax, ecx
+        44af2c - mov dword ptr [ebp+0x4], eax
+        44af39 - pushfd
+        44af41 - pop dword ptr [ebp]
+b-42eda2:
+        42eded - mov ecx, dword ptr [ebp]
+        42edf1 - lea ebp, ptr [ebp+0x4]
+        42edfe - mov dword ptr [esp+0x10], ecx
+b-463fb4:
+        463fb4 - mov eax, dword ptr [ebp]
+        463fbf - mov ecx, dword ptr [ebp+0x4]
+        463fc8 - not eax
+        463fca - not ecx
+        463fcc - and eax, ecx
+        425d17 - mov dword ptr [ebp+0x4], eax
+        425d1d - pushfd
+        425d29 - pop dword ptr [ebp]
+b-43cc41:
+        43cc7b - mov ecx, dword ptr [ebp]
+        43cc83 - add ebp, 0x4
+        43cc89 - mov dword ptr [esp+0x1c], ecx
+b-432085:
+        4320b6 - mov ecx, dword ptr [ebp]
+        4320bf - add ebp, 0x4
+        4320c5 - mov dword ptr [esp+0x10], ecx
+b-4762b1:
+        4762ee - sub ebp, 0x4
+        4762f5 - mov dword ptr [ebp], 0x2a80
+b-45f457:
+        46a3e4 - mov eax, dword ptr [esp+0x10]
+        46a3e8 - lea ebp, ptr [ebp-0x4]
+        46a3f1 - mov dword ptr [ebp], eax
+b-47e3ff:
+        47e3ff - mov eax, dword ptr [ebp]
+        47e403 - mov ecx, dword ptr [ebp+0x4]
+        47e40b - not eax
+        45700b - not ecx
+        457011 - and eax, ecx
+        457013 - mov dword ptr [ebp+0x4], eax
+        45701a - pushfd
+        45701b - pop dword ptr [ebp]
+b-43285a:
+        485afa - mov ecx, dword ptr [ebp]
+        485b01 - add ebp, 0x4
+        485b07 - mov dword ptr [esp], ecx
+b-43fc7a:
+        43fc7a - mov eax, ebp
+        43fc80 - sub ebp, 0x4
+        43fc86 - mov dword ptr [ebp], eax
+b-45b84d:
+        45b84d - mov ecx, dword ptr [ebp]
+        45b852 - mov eax, dword ptr ss:[ecx]
+        45b856 - mov dword ptr [ebp], eax
+b-487b17:
+        487b17 - mov eax, dword ptr [ebp]
+        487b1b - mov ecx, dword ptr [ebp+0x4]
+        487b21 - not eax
+        460771 - not ecx
+        460774 - and eax, ecx
+        460485 - mov dword ptr [ebp+0x4], eax
+        46048a - pushfd
+        46048b - pop dword ptr [ebp]
+b-472114:
+        472151 - mov ecx, dword ptr [ebp]
+        480797 - add ebp, 0x4
+        4807a2 - mov dword ptr [esp+0x2c], ecx
+b-44efa7:
+        430e29 - mov ecx, dword ptr [ebp]
+        430e2d - lea ebp, ptr [ebp+0x4]
+        430e33 - mov dword ptr [esp+0x2c], ecx
+b-49afdf:
+        445130 - sub ebp, 0x4
+        445142 - mov dword ptr [ebp], 0x676e35ff
+b-441cf6:
+        4596cb - mov eax, dword ptr [esp+0x2c]
+        4596d2 - sub ebp, 0x4
+        4596e2 - mov dword ptr [ebp], eax
+b-437794:
+        4377c1 - mov eax, dword ptr [esp+0x2c]
+        4502ef - lea ebp, ptr [ebp-0x4]
+        4502f5 - mov dword ptr [ebp], eax
+b-45c2f6:
+        45c2f6 - mov eax, dword ptr [ebp]
+        45c2fa - mov ecx, dword ptr [ebp+0x4]
+        45c304 - not eax
+        45c306 - not ecx
+        45c308 - and eax, ecx
+        466256 - mov dword ptr [ebp+0x4], eax
+        46625d - pushfd
+        466263 - pop dword ptr [ebp]
+b-47b865:
+        47b8a9 - mov ecx, dword ptr [ebp]
+        47b8ad - lea ebp, ptr [ebp+0x4]
+        47b8b3 - mov dword ptr [esp+0x1c], ecx
+b-43c7e5:
+        43c7e5 - mov eax, dword ptr [ebp]
+        43c7eb - mov ecx, dword ptr [ebp+0x4]
+        43c7f3 - not eax
+        43c7f5 - not ecx
+        43d1af - and eax, ecx
+        43d1b1 - mov dword ptr [ebp+0x4], eax
+        43d1b8 - pushfd
+        43d1b9 - pop dword ptr [ebp]
+b-44489f:
+        44c96d - mov ecx, dword ptr [ebp]
+        459689 - lea ebp, ptr [ebp+0x4]
+        459692 - mov dword ptr [esp+0x20], ecx
+b-441472:
+        4414a7 - sub ebp, 0x4
+        44b92d - mov dword ptr [ebp], 0x9891ca00
+b-438038:
+        43805f - mov eax, dword ptr [esp+0x2c]
+        438067 - lea ebp, ptr [ebp-0x4]
+        43806f - mov dword ptr [ebp], eax
+b-44c4d5:
+        44c4d5 - mov eax, dword ptr [ebp]
+        44c4db - mov ecx, dword ptr [ebp+0x4]
+        44c4e0 - not eax
+        44c4e2 - not ecx
+        44c4e5 - and eax, ecx
+        4539c2 - mov dword ptr [ebp+0x4], eax
+        4539c6 - pushfd
+        4539cc - pop dword ptr [ebp]
+b-4892af:
+        4892ef - mov ecx, dword ptr [ebp]
+        41a261 - lea ebp, ptr [ebp+0x4]
+        41a267 - mov dword ptr [esp+0x1c], ecx
+b-460b0f:
+        460b0f - mov eax, dword ptr [ebp]
+        460b13 - mov ecx, dword ptr [ebp+0x4]
+        460b1d - not eax
+        43416d - not ecx
+        499708 - and eax, ecx
+        44c1e0 - mov dword ptr [ebp+0x4], eax
+        44c1e7 - pushfd
+        44c1f2 - pop dword ptr [ebp]
+b-493fb7:
+        493ff9 - mov ecx, dword ptr [ebp]
+        494004 - lea ebp, ptr [ebp+0x4]
+        494011 - mov dword ptr [esp], ecx
+b-43cebf:
+        43cef1 - mov ecx, dword ptr [ebp]
+        43cef6 - lea ebp, ptr [ebp+0x4]
+        43cf03 - mov dword ptr [esp+0x10], ecx
+b-43eb8a:
+        46b833 - lea ebp, ptr [ebp-0x4]
+        46b842 - mov dword ptr [ebp], 0x1
+b-43fc2a:
+        43fc57 - mov eax, dword ptr [esp+0x10]
+        486f37 - lea ebp, ptr [ebp-0x4]
+        486f3d - mov dword ptr [ebp], eax
+b-423f22:
+        423f22 - mov eax, dword ptr [ebp]
+        423f26 - mov ecx, dword ptr [ebp+0x4]
+        423f30 - add eax, ecx
+        45fb92 - mov dword ptr [ebp+0x4], eax
+        45fb99 - pushfd
+        45fb9f - pop dword ptr [ebp]
+b-42eda2:
+        42eded - mov ecx, dword ptr [ebp]
+        42edf1 - lea ebp, ptr [ebp+0x4]
+        42edfe - mov dword ptr [esp+0x28], ecx
+b-43cc41:
+        43cc7b - mov ecx, dword ptr [ebp]
+        43cc83 - add ebp, 0x4
+        43cc89 - mov dword ptr [esp+0x1c], ecx
+b-45b7ef:
+        45b81c - mov eax, dword ptr [esp]
+        45b826 - lea ebp, ptr [ebp-0x4]
+        42f000 - mov dword ptr [ebp], eax
+b-4786ff:
+        450d3b - mov eax, dword ptr [esp]
+        450d43 - lea ebp, ptr [ebp-0x4]
+        446f80 - mov dword ptr [ebp], eax
+b-48bc0d:
+        48bc0d - mov eax, dword ptr [ebp]
+        48bc11 - mov ecx, dword ptr [ebp+0x4]
+        48bc1b - not eax
+        48bc1d - not ecx
+        46fea9 - and eax, ecx
+        491871 - mov dword ptr [ebp+0x4], eax
+        491879 - pushfd
+        49187f - pop dword ptr [ebp]
+b-432085:
+        4320b6 - mov ecx, dword ptr [ebp]
+        4320bf - add ebp, 0x4
+        4320c5 - mov dword ptr [esp+0x3c], ecx
+b-475039:
+        447aeb - lea ebp, ptr [ebp-0x4]
+        447af1 - mov dword ptr [ebp], 0xfffffffe
+b-433194:
+        433194 - mov eax, dword ptr [ebp]
+        43319e - mov ecx, dword ptr [ebp+0x4]
+        4331a2 - not eax
+        4331aa - not ecx
+        4331b0 - and eax, ecx
+        48e3cc - mov dword ptr [ebp+0x4], eax
+        48e3d0 - pushfd
+        48e3d3 - pop dword ptr [ebp]
+b-43285a:
+        485afa - mov ecx, dword ptr [ebp]
+        485b01 - add ebp, 0x4
+        485b07 - mov dword ptr [esp+0x34], ecx
+b-45b707:
+        45b722 - mov eax, dword ptr [esp+0x28]
+        45b725 - sub ebp, 0x4
+        45b72f - mov dword ptr [ebp], eax
+b-41d8ad:
+        417045 - mov eax, dword ptr [esp+0x28]
+        41704b - sub ebp, 0x4
+        417051 - mov dword ptr [ebp], eax
+b-437c46:
+        437c46 - mov eax, dword ptr [ebp]
+        437c4e - mov ecx, dword ptr [ebp+0x4]
+        437c58 - not eax
+        42d637 - not ecx
+        42d63c - and eax, ecx
+        46397d - mov dword ptr [ebp+0x4], eax
+        42fd9d - pushfd
+        42fda8 - pop dword ptr [ebp]
+b-472114:
+        472151 - mov ecx, dword ptr [ebp]
+        480797 - add ebp, 0x4
+        4807a2 - mov dword ptr [esp+0x20], ecx
+b-43a136:
+        43d913 - sub ebp, 0x4
+        43d91c - mov dword ptr [ebp], 0x1
+b-47308d:
+        47308d - mov eax, dword ptr [ebp]
+        473093 - mov ecx, dword ptr [ebp+0x4]
+        47309b - not eax
+        47309e - not ecx
+        4730a2 - and eax, ecx
+        44af2c - mov dword ptr [ebp+0x4], eax
+        44af39 - pushfd
+        44af41 - pop dword ptr [ebp]
+b-44efa7:
+        430e29 - mov ecx, dword ptr [ebp]
+        430e2d - lea ebp, ptr [ebp+0x4]
+        430e33 - mov dword ptr [esp+0x20], ecx
+b-496c89:
+        496c89 - mov eax, dword ptr [ebp]
+        496c8d - mov ecx, dword ptr [ebp+0x4]
+        496c9a - add eax, ecx
+        46be0f - mov dword ptr [ebp+0x4], eax
+        46be17 - pushfd
+        46be1b - pop dword ptr [ebp]
+b-47b865:
+        47b8a9 - mov ecx, dword ptr [ebp]
+        47b8ad - lea ebp, ptr [ebp+0x4]
+        47b8b3 - mov dword ptr [esp+0x10], ecx
+b-44489f:
+        44c96d - mov ecx, dword ptr [ebp]
+        459689 - lea ebp, ptr [ebp+0x4]
+        459692 - mov dword ptr [esp+0x3c], ecx
+b-49734a:
+        497378 - mov eax, dword ptr [esp+0x1c]
+        4589fa - sub ebp, 0x4
+        44f6d3 - mov dword ptr [ebp], eax
+b-44fa7a:
+        4795e9 - mov eax, dword ptr [esp+0x30]
+        4795f7 - sub ebp, 0x4
+        4795ff - mov dword ptr [ebp], eax
+b-45d66b:
+        47f5f9 - sub ebp, 0x4
+        47f5ff - mov dword ptr [ebp], 0xfffffe00
+b-42e0d5:
+        42e0d5 - mov eax, dword ptr [ebp]
+        42e0de - mov ecx, dword ptr [ebp+0x4]
+        42e0e4 - add eax, ecx
+        43ad11 - mov dword ptr [ebp+0x4], eax
+        43ad16 - pushfd
+        43ad1f - pop dword ptr [ebp]
+b-4892af:
+        4892ef - mov ecx, dword ptr [ebp]
+        41a261 - lea ebp, ptr [ebp+0x4]
+        41a267 - mov dword ptr [esp+0x34], ecx
+b-493fb7:
+        493ff9 - mov ecx, dword ptr [ebp]
+        494004 - lea ebp, ptr [ebp+0x4]
+        494011 - mov dword ptr [esp+0x10], ecx
+b-449d98:
+        449dc2 - sub ebp, 0x4
+        449dc9 - mov dword ptr [ebp], 0x412978
+b-479a61:
+        479a96 - sub ebp, 0x4
+        479a9e - mov dword ptr [ebp], 0x100
+b-45f457:
+        46a3e4 - mov eax, dword ptr [esp+0x10]
+        46a3e8 - lea ebp, ptr [ebp-0x4]
+        46a3f1 - mov dword ptr [ebp], eax
+b-45d66b:
+        47f5f9 - sub ebp, 0x4
+        47f5ff - mov dword ptr [ebp], 0x41f618
+b-441cf6:
+        4596cb - mov eax, dword ptr [esp+0x14]
+        4596d2 - sub ebp, 0x4
+        4596e2 - mov dword ptr [ebp], eax
+b-49af2e:
+        49af2e - mov eax, dword ptr [ebp]
+        49af36 - mov ecx, dword ptr [ebp+0x4]
+        49af3a - add eax, ecx
+        481a8f - mov dword ptr [ebp+0x4], eax
+        481a96 - pushfd
+        481a97 - pop dword ptr [ebp]
+b-43cebf:
+        43cef1 - mov ecx, dword ptr [ebp]
+        43cef6 - lea ebp, ptr [ebp+0x4]
+        43cf03 - mov dword ptr [esp+0x34], ecx
+b-42ae29:
+        45a6a4 - sub ebp, 0x4
+        45a6ac - mov dword ptr [ebp], 0x401000
+b-437794:
+        4377c1 - mov eax, dword ptr [esp+0x14]
+        4502ef - lea ebp, ptr [ebp-0x4]
+        4502f5 - mov dword ptr [ebp], eax
+b-453037:
+        453037 - mov eax, dword ptr [ebp]
+        453046 - mov ecx, dword ptr [ebp+0x4]
+        45304d - add eax, ecx
+        45304f - mov dword ptr [ebp+0x4], eax
+        453059 - pushfd
+        45305a - pop dword ptr [ebp]
+b-42eda2:
+        42eded - mov ecx, dword ptr [ebp]
+        42edf1 - lea ebp, ptr [ebp+0x4]
+        42edfe - mov dword ptr [esp+0x34], ecx
+b-438038:
+        43805f - mov eax, dword ptr [esp+0x4]
+        438067 - lea ebp, ptr [ebp-0x4]
+        43806f - mov dword ptr [ebp], eax
+b-43fc2a:
+        43fc57 - mov eax, dword ptr [esp+0x30]
+        486f37 - lea ebp, ptr [ebp-0x4]
+        486f3d - mov dword ptr [ebp], eax
+b-45b7ef:
+        45b81c - mov eax, dword ptr [esp+0x10]
+        45b826 - lea ebp, ptr [ebp-0x4]
+        42f000 - mov dword ptr [ebp], eax
+b-4786ff:
+        450d3b - mov eax, dword ptr [esp+0x18]
+        450d43 - lea ebp, ptr [ebp-0x4]
+        446f80 - mov dword ptr [ebp], eax
+b-45b707:
+        45b722 - mov eax, dword ptr [esp+0x3c]
+        45b725 - sub ebp, 0x4
+        45b72f - mov dword ptr [ebp], eax
+b-41d8ad:
+        417045 - mov eax, dword ptr [esp+0x8]
+        41704b - sub ebp, 0x4
+        417051 - mov dword ptr [ebp], eax
+b-49734a:
+        497378 - mov eax, dword ptr [esp+0xc]
+        4589fa - sub ebp, 0x4
+        44f6d3 - mov dword ptr [ebp], eax
+b-44fa7a:
+        4795e9 - mov eax, dword ptr [esp+0x38]
+        4795f7 - sub ebp, 0x4
+        4795ff - mov dword ptr [ebp], eax
+b-438869:
+        438869 - mov esp, ebp
+        43886e - pop esi
+        43886f - pop edx
+        438870 - pop ebx
+        438878 - popfd
+        43887c - pop edi
+        438883 - pop eax
+        43888a - pop ebp
+        43888e - pop ecx
+        432eac - ret
+
+C:\Users\Lily\source\repos\VMProtectTest\x64\Release\VMProtectTest.exe (プロセス 920) は、コード 0 で終了しました。
+このウィンドウを閉じるには、任意のキーを押してください...

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="xed">
+      <UniqueIdentifier>{80af6e34-bd16-4b7a-80f8-c1e117331d10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stream">
+      <UniqueIdentifier>{2b4073a1-8820-4b4e-a4c0-89ee9b82fb27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vmp">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="cfg">
+      <UniqueIdentifier>{e9d8ef90-a2ce-4ce1-a1c0-78275a7eeadc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="vtil">
+      <UniqueIdentifier>{1a571cdf-f742-4365-8e3b-0952f8c7824d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="x86_instruction.hpp">
+      <Filter>xed</Filter>
+    </ClInclude>
+    <ClInclude Include="x86_operand.hpp">
+      <Filter>xed</Filter>
+    </ClInclude>
+    <ClInclude Include="x86_register.hpp">
+      <Filter>xed</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractStream.hpp">
+      <Filter>stream</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessStream.hpp">
+      <Filter>stream</Filter>
+    </ClInclude>
+    <ClInclude Include="VMProtectAnalyzer.hpp">
+      <Filter>vmp</Filter>
+    </ClInclude>
+    <ClInclude Include="CFG.hpp">
+      <Filter>cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="vtilblk.hpp">
+      <Filter>vtil</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="x86_instruction.cpp">
+      <Filter>xed</Filter>
+    </ClCompile>
+    <ClCompile Include="x86_operand.cpp">
+      <Filter>xed</Filter>
+    </ClCompile>
+    <ClCompile Include="x86_register.cpp">
+      <Filter>xed</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractStream.cpp">
+      <Filter>stream</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessStream.cpp">
+      <Filter>stream</Filter>
+    </ClCompile>
+    <ClCompile Include="VMProtectAnalyzer.cpp">
+      <Filter>vmp</Filter>
+    </ClCompile>
+    <ClCompile Include="CFG.cpp">
+      <Filter>cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>vmp</Filter>
+    </ClCompile>
+    <ClCompile Include="vtilblk.cpp">
+      <Filter>vtil</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
